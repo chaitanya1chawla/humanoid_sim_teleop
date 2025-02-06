@@ -1,0 +1,33 @@
+<mujoco model="plastic_box">
+  <default>
+    <default class="plastic_box_visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="plastic_box_collision">
+      <geom group="3" type="mesh" solref="0.004" solimp="0.95 0.98" condim="6"/>
+    </default>
+  </default>
+  <asset>
+    <texture type="2d" name="bottle_texture_0" file="../objects/bigym/plastic_box/texture_0.png"/>
+    <material name="bottle_material_0" texture="bottle_texture_0"/>
+    <mesh file="../objects/bigym/plastic_box/plastic_box.obj" name="plastic_box" scale="0.33 0.37 0.42" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/plastic_box/plastic_box_collision_0.obj" name="plastic_box_collision_0" scale="0.33 0.37 0.42" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/plastic_box/plastic_box_collision_1.obj" name="plastic_box_collision_1" scale="0.33 0.37 0.42" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/plastic_box/plastic_box_collision_2.obj" name="plastic_box_collision_2" scale="0.33 0.37 0.42" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/plastic_box/plastic_box_collision_3.obj" name="plastic_box_collision_3" scale="0.33 0.37 0.42" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/plastic_box/plastic_box_collision_4.obj" name="plastic_box_collision_4" scale="0.33 0.37 0.42" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/plastic_box/plastic_box_collision_5.obj" name="plastic_box_collision_5" scale="0.33 0.37 0.42" refquat="0.707 -0.707 0.0 0.0"/>
+  </asset>
+  <worldbody>
+    <body name="plastic_box" pos="0.58 0.05 1.185">
+      <!-- <freejoint/> -->
+      <geom material="bottle_material_0" mesh="plastic_box" class="plastic_box_visual"/>
+      <geom mesh="plastic_box_collision_0" rgba="0.1317471182773694 0.9579872366658739 0.4567872566728943 1" class="plastic_box_collision"/>
+      <geom mesh="plastic_box_collision_1" rgba="0.9508083359340955 0.6071479300360293 0.4624626481189035 1" class="plastic_box_collision"/>
+      <geom mesh="plastic_box_collision_2" rgba="0.2997375555485986 0.2528180678839105 0.3835646087417869 1" class="plastic_box_collision"/>
+      <geom mesh="plastic_box_collision_3" rgba="0.7458657464430151 0.9088144095272849 0.7051509978130392 1" class="plastic_box_collision"/>
+      <geom mesh="plastic_box_collision_4" rgba="0.9280014695183042 0.03154883225999894 0.14897933840846855 1" class="plastic_box_collision"/>
+      <geom mesh="plastic_box_collision_5" rgba="0.9958032270252464 0.9788864813025022 0.6180842167303812 1" class="plastic_box_collision"/>
+    </body>
+  </worldbody>
+</mujoco>

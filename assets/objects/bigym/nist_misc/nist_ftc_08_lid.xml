@@ -1,0 +1,31 @@
+<mujoco model="nist_ftc_08_asme1_sw1500_rc">
+  <default>
+    <default class="nist_lid_visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="nist_lid_collision">
+      <geom group="3" type="mesh" density="4800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="nist_ftc_08_asme1_sw1500_rc" file="../objects/bigym/nist_misc/nist_ftc_08_asme1_sw1500_rc/nist_ftc_08_asme1_sw1500_rc.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_08_asme1_sw1500_rc_collision_0" file="../objects/bigym/nist_misc/nist_ftc_08_asme1_sw1500_rc/nist_ftc_08_asme1_sw1500_rc_collision_0.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_08_asme1_sw1500_rc_collision_1" file="../objects/bigym/nist_misc/nist_ftc_08_asme1_sw1500_rc/nist_ftc_08_asme1_sw1500_rc_collision_1.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_08_asme1_sw1500_rc_collision_2" file="../objects/bigym/nist_misc/nist_ftc_08_asme1_sw1500_rc/nist_ftc_08_asme1_sw1500_rc_collision_2.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_08_asme1_sw1500_rc_collision_3" file="../objects/bigym/nist_misc/nist_ftc_08_asme1_sw1500_rc/nist_ftc_08_asme1_sw1500_rc_collision_3.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_08_asme1_sw1500_rc_collision_4" file="../objects/bigym/nist_misc/nist_ftc_08_asme1_sw1500_rc/nist_ftc_08_asme1_sw1500_rc_collision_4.obj" scale="0.0005 0.0005 0.0005" />
+    <mesh name="nist_ftc_08_asme1_sw1500_rc_collision_5" file="../objects/bigym/nist_misc/nist_ftc_08_asme1_sw1500_rc/nist_ftc_08_asme1_sw1500_rc_collision_5.obj" scale="0.0005 0.0005 0.0005"/>
+  </asset>
+  <worldbody>
+    <body name="nist_ftc_08_asme1_sw1500_rc" pos="0.52 -0.1 1.48" quat="0 1 0 0">
+      <freejoint/>
+      <geom mesh="nist_ftc_08_asme1_sw1500_rc" class="nist_lid_visual"/>
+      <geom mesh="nist_ftc_08_asme1_sw1500_rc_collision_0" rgba="0.7649019014136847 0.7479204475119976 0.23068717767425428 1" class="nist_lid_collision"/>
+      <geom mesh="nist_ftc_08_asme1_sw1500_rc_collision_1" rgba="0.8206632600185385 0.2884064426189211 0.10911199197777588 1" class="nist_lid_collision"/>
+      <geom mesh="nist_ftc_08_asme1_sw1500_rc_collision_2" rgba="0.6599792609209949 0.7390322039579112 0.22865202513366756 1" class="nist_lid_collision"/>
+      <geom mesh="nist_ftc_08_asme1_sw1500_rc_collision_3" rgba="0.8493625589621616 0.8163457656425196 0.1291891524053428 1" class="nist_lid_collision"/>
+      <geom mesh="nist_ftc_08_asme1_sw1500_rc_collision_4" rgba="0.4633042686150507 0.027760609776509293 0.04769883738781955 1" class="nist_lid_collision"/>
+      <geom mesh="nist_ftc_08_asme1_sw1500_rc_collision_5" rgba="0.3412207603705123 0.8353955716807293 0.980994143512161 1" class="nist_lid_collision"/>
+    </body>
+  </worldbody>
+</mujoco>

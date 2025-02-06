@@ -1,0 +1,25 @@
+robot_cfg:
+  name: gr1
+  body_indices: [0, 1, 2, 3, 4, 5, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+  left_arm_indices: [6, 7, 8, 9, 10, 11, 12]
+  right_arm_indices: [13, 14, 15, 16, 17, 18, 19]
+
+  body:
+    # model_path: None
+    low_pass_alpha: 0.9
+
+  arm:
+    dt: 0.016667
+    urdf_path: gr1/GR1T1/urdf/GR1T1.urdf
+    mesh_path: gr1/GR1T1/meshes
+
+    collision: False
+    scaling_factor: 1.1
+    ik_damping: 1e-2
+    eps: 1e-3
+    left_wrist: l_hand_keypoint
+    right_wrist: r_hand_keypoint
+    locked_joints: ['joint_waist_yaw', 'joint_waist_pitch', 'joint_waist_roll']
+
+    low_pass_alpha: 0.8
+

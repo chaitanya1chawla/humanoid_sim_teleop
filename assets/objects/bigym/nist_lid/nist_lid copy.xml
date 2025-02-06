@@ -1,0 +1,288 @@
+<mujoco model="nist_lid">
+  <asset>
+    <material name="steel_visual_nist_lid" rgba="0.6 0.6 0.65 1.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <material name="steel_nist_lid" rgba="0.6 0.6 0.65 0.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <mesh name="nist_lid" file="collision/nist_lid.obj"/>
+    <mesh name="nist_lid_collision_0" file="collision/nist_lid_collision_0.obj"/>
+    <mesh name="nist_lid_collision_1" file="collision/nist_lid_collision_1.obj"/>
+    <mesh name="nist_lid_collision_2" file="collision/nist_lid_collision_2.obj"/>
+    <mesh name="nist_lid_collision_3" file="collision/nist_lid_collision_3.obj"/>
+    <mesh name="nist_lid_collision_4" file="collision/nist_lid_collision_4.obj"/>
+    <mesh name="nist_lid_collision_5" file="collision/nist_lid_collision_5.obj"/>
+    <mesh name="nist_lid_collision_6" file="collision/nist_lid_collision_6.obj"/>
+    <mesh name="nist_lid_collision_7" file="collision/nist_lid_collision_7.obj"/>
+    <mesh name="nist_lid_collision_8" file="collision/nist_lid_collision_8.obj"/>
+    <mesh name="nist_lid_collision_9" file="collision/nist_lid_collision_9.obj"/>
+    <mesh name="nist_lid_collision_10" file="collision/nist_lid_collision_10.obj"/>
+    <mesh name="nist_lid_collision_11" file="collision/nist_lid_collision_11.obj"/>
+    <mesh name="nist_lid_collision_12" file="collision/nist_lid_collision_12.obj"/>
+    <mesh name="nist_lid_collision_13" file="collision/nist_lid_collision_13.obj"/>
+    <mesh name="nist_lid_collision_14" file="collision/nist_lid_collision_14.obj"/>
+    <mesh name="nist_lid_collision_15" file="collision/nist_lid_collision_15.obj"/>
+    <mesh name="nist_lid_collision_16" file="collision/nist_lid_collision_16.obj"/>
+    <mesh name="nist_lid_collision_17" file="collision/nist_lid_collision_17.obj"/>
+    <mesh name="nist_lid_collision_18" file="collision/nist_lid_collision_18.obj"/>
+    <mesh name="nist_lid_collision_19" file="collision/nist_lid_collision_19.obj"/>
+    <mesh name="nist_lid_collision_20" file="collision/nist_lid_collision_20.obj"/>
+    <mesh name="nist_lid_collision_21" file="collision/nist_lid_collision_21.obj"/>
+    <mesh name="nist_lid_collision_22" file="collision/nist_lid_collision_22.obj"/>
+    <mesh name="nist_lid_collision_23" file="collision/nist_lid_collision_23.obj"/>
+    <mesh name="nist_lid_collision_24" file="collision/nist_lid_collision_24.obj"/>
+    <mesh name="nist_lid_collision_25" file="collision/nist_lid_collision_25.obj"/>
+    <mesh name="nist_lid_collision_26" file="collision/nist_lid_collision_26.obj"/>
+    <mesh name="nist_lid_collision_27" file="collision/nist_lid_collision_27.obj"/>
+    <mesh name="nist_lid_collision_28" file="collision/nist_lid_collision_28.obj"/>
+    <mesh name="nist_lid_collision_29" file="collision/nist_lid_collision_29.obj"/>
+    <mesh name="nist_lid_collision_30" file="collision/nist_lid_collision_30.obj"/>
+    <mesh name="nist_lid_collision_31" file="collision/nist_lid_collision_31.obj"/>
+    <mesh name="nist_lid_collision_32" file="collision/nist_lid_collision_32.obj"/>
+    <mesh name="nist_lid_collision_33" file="collision/nist_lid_collision_33.obj"/>
+    <mesh name="nist_lid_collision_34" file="collision/nist_lid_collision_34.obj"/>
+    <mesh name="nist_lid_collision_35" file="collision/nist_lid_collision_35.obj"/>
+    <mesh name="nist_lid_collision_36" file="collision/nist_lid_collision_36.obj"/>
+    <mesh name="nist_lid_collision_37" file="collision/nist_lid_collision_37.obj"/>
+    <mesh name="nist_lid_collision_38" file="collision/nist_lid_collision_38.obj"/>
+    <mesh name="nist_lid_collision_39" file="collision/nist_lid_collision_39.obj"/>
+    <mesh name="nist_lid_collision_40" file="collision/nist_lid_collision_40.obj"/>
+    <mesh name="nist_lid_collision_41" file="collision/nist_lid_collision_41.obj"/>
+    <mesh name="nist_lid_collision_42" file="collision/nist_lid_collision_42.obj"/>
+    <mesh name="nist_lid_collision_43" file="collision/nist_lid_collision_43.obj"/>
+    <mesh name="nist_lid_collision_44" file="collision/nist_lid_collision_44.obj"/>
+    <mesh name="nist_lid_collision_45" file="collision/nist_lid_collision_45.obj"/>
+    <mesh name="nist_lid_collision_46" file="collision/nist_lid_collision_46.obj"/>
+    <mesh name="nist_lid_collision_47" file="collision/nist_lid_collision_47.obj"/>
+    <mesh name="nist_lid_collision_48" file="collision/nist_lid_collision_48.obj"/>
+    <mesh name="nist_lid_collision_49" file="collision/nist_lid_collision_49.obj"/>
+    <mesh name="nist_lid_collision_50" file="collision/nist_lid_collision_50.obj"/>
+    <mesh name="nist_lid_collision_51" file="collision/nist_lid_collision_51.obj"/>
+    <mesh name="nist_lid_collision_52" file="collision/nist_lid_collision_52.obj"/>
+    <mesh name="nist_lid_collision_53" file="collision/nist_lid_collision_53.obj"/>
+    <mesh name="nist_lid_collision_54" file="collision/nist_lid_collision_54.obj"/>
+    <mesh name="nist_lid_collision_55" file="collision/nist_lid_collision_55.obj"/>
+    <mesh name="nist_lid_collision_56" file="collision/nist_lid_collision_56.obj"/>
+    <mesh name="nist_lid_collision_57" file="collision/nist_lid_collision_57.obj"/>
+    <mesh name="nist_lid_collision_58" file="collision/nist_lid_collision_58.obj"/>
+    <mesh name="nist_lid_collision_59" file="collision/nist_lid_collision_59.obj"/>
+    <mesh name="nist_lid_collision_60" file="collision/nist_lid_collision_60.obj"/>
+    <mesh name="nist_lid_collision_61" file="collision/nist_lid_collision_61.obj"/>
+    <mesh name="nist_lid_collision_62" file="collision/nist_lid_collision_62.obj"/>
+    <mesh name="nist_lid_collision_63" file="collision/nist_lid_collision_63.obj"/>
+    <mesh name="nist_lid_collision_64" file="collision/nist_lid_collision_64.obj"/>
+    <mesh name="nist_lid_collision_65" file="collision/nist_lid_collision_65.obj"/>
+    <mesh name="nist_lid_collision_66" file="collision/nist_lid_collision_66.obj"/>
+    <mesh name="nist_lid_collision_67" file="collision/nist_lid_collision_67.obj"/>
+    <mesh name="nist_lid_collision_68" file="collision/nist_lid_collision_68.obj"/>
+    <mesh name="nist_lid_collision_69" file="collision/nist_lid_collision_69.obj"/>
+    <mesh name="nist_lid_collision_70" file="collision/nist_lid_collision_70.obj"/>
+    <mesh name="nist_lid_collision_71" file="collision/nist_lid_collision_71.obj"/>
+    <mesh name="nist_lid_collision_72" file="collision/nist_lid_collision_72.obj"/>
+    <mesh name="nist_lid_collision_73" file="collision/nist_lid_collision_73.obj"/>
+    <mesh name="nist_lid_collision_74" file="collision/nist_lid_collision_74.obj"/>
+    <mesh name="nist_lid_collision_75" file="collision/nist_lid_collision_75.obj"/>
+    <mesh name="nist_lid_collision_76" file="collision/nist_lid_collision_76.obj"/>
+    <mesh name="nist_lid_collision_77" file="collision/nist_lid_collision_77.obj"/>
+    <mesh name="nist_lid_collision_78" file="collision/nist_lid_collision_78.obj"/>
+    <mesh name="nist_lid_collision_79" file="collision/nist_lid_collision_79.obj"/>
+    <mesh name="nist_lid_collision_80" file="collision/nist_lid_collision_80.obj"/>
+    <mesh name="nist_lid_collision_81" file="collision/nist_lid_collision_81.obj"/>
+    <mesh name="nist_lid_collision_82" file="collision/nist_lid_collision_82.obj"/>
+    <mesh name="nist_lid_collision_83" file="collision/nist_lid_collision_83.obj"/>
+    <mesh name="nist_lid_collision_84" file="collision/nist_lid_collision_84.obj"/>
+    <mesh name="nist_lid_collision_85" file="collision/nist_lid_collision_85.obj"/>
+    <mesh name="nist_lid_collision_86" file="collision/nist_lid_collision_86.obj"/>
+    <mesh name="nist_lid_collision_87" file="collision/nist_lid_collision_87.obj"/>
+    <mesh name="nist_lid_collision_88" file="collision/nist_lid_collision_88.obj"/>
+    <mesh name="nist_lid_collision_89" file="collision/nist_lid_collision_89.obj"/>
+    <mesh name="nist_lid_collision_90" file="collision/nist_lid_collision_90.obj"/>
+    <mesh name="nist_lid_collision_91" file="collision/nist_lid_collision_91.obj"/>
+    <mesh name="nist_lid_collision_92" file="collision/nist_lid_collision_92.obj"/>
+    <mesh name="nist_lid_collision_93" file="collision/nist_lid_collision_93.obj"/>
+    <mesh name="nist_lid_collision_94" file="collision/nist_lid_collision_94.obj"/>
+    <mesh name="nist_lid_collision_95" file="collision/nist_lid_collision_95.obj"/>
+    <mesh name="nist_lid_collision_96" file="collision/nist_lid_collision_96.obj"/>
+    <mesh name="nist_lid_collision_97" file="collision/nist_lid_collision_97.obj"/>
+    <mesh name="nist_lid_collision_98" file="collision/nist_lid_collision_98.obj"/>
+    <mesh name="nist_lid_collision_99" file="collision/nist_lid_collision_99.obj"/>
+    <mesh name="nist_lid_collision_100" file="collision/nist_lid_collision_100.obj"/>
+    <mesh name="nist_lid_collision_101" file="collision/nist_lid_collision_101.obj"/>
+    <mesh name="nist_lid_collision_102" file="collision/nist_lid_collision_102.obj"/>
+    <mesh name="nist_lid_collision_103" file="collision/nist_lid_collision_103.obj"/>
+    <mesh name="nist_lid_collision_104" file="collision/nist_lid_collision_104.obj"/>
+    <mesh name="nist_lid_collision_105" file="collision/nist_lid_collision_105.obj"/>
+    <mesh name="nist_lid_collision_106" file="collision/nist_lid_collision_106.obj"/>
+    <mesh name="nist_lid_collision_107" file="collision/nist_lid_collision_107.obj"/>
+    <mesh name="nist_lid_collision_108" file="collision/nist_lid_collision_108.obj"/>
+    <mesh name="nist_lid_collision_109" file="collision/nist_lid_collision_109.obj"/>
+    <mesh name="nist_lid_collision_110" file="collision/nist_lid_collision_110.obj"/>
+    <mesh name="nist_lid_collision_111" file="collision/nist_lid_collision_111.obj"/>
+    <mesh name="nist_lid_collision_112" file="collision/nist_lid_collision_112.obj"/>
+    <mesh name="nist_lid_collision_113" file="collision/nist_lid_collision_113.obj"/>
+    <mesh name="nist_lid_collision_114" file="collision/nist_lid_collision_114.obj"/>
+    <mesh name="nist_lid_collision_115" file="collision/nist_lid_collision_115.obj"/>
+    <mesh name="nist_lid_collision_116" file="collision/nist_lid_collision_116.obj"/>
+    <mesh name="nist_lid_collision_117" file="collision/nist_lid_collision_117.obj"/>
+    <mesh name="nist_lid_collision_118" file="collision/nist_lid_collision_118.obj"/>
+    <mesh name="nist_lid_collision_119" file="collision/nist_lid_collision_119.obj"/>
+    <mesh name="nist_lid_collision_120" file="collision/nist_lid_collision_120.obj"/>
+    <mesh name="nist_lid_collision_121" file="collision/nist_lid_collision_121.obj"/>
+    <mesh name="nist_lid_collision_122" file="collision/nist_lid_collision_122.obj"/>
+    <mesh name="nist_lid_collision_123" file="collision/nist_lid_collision_123.obj"/>
+    <mesh name="nist_lid_collision_124" file="collision/nist_lid_collision_124.obj"/>
+    <mesh name="nist_lid_collision_125" file="collision/nist_lid_collision_125.obj"/>
+    <mesh name="nist_lid_collision_126" file="collision/nist_lid_collision_126.obj"/>
+    <mesh name="nist_lid_collision_127" file="collision/nist_lid_collision_127.obj"/>
+    <mesh name="nist_lid_collision_128" file="collision/nist_lid_collision_128.obj"/>
+    <mesh name="nist_lid_collision_129" file="collision/nist_lid_collision_129.obj"/>
+    <mesh name="nist_lid_collision_130" file="collision/nist_lid_collision_130.obj"/>
+    <mesh name="nist_lid_collision_131" file="collision/nist_lid_collision_131.obj"/>
+    <mesh name="nist_lid_collision_132" file="collision/nist_lid_collision_132.obj"/>
+    <mesh name="nist_lid_collision_133" file="collision/nist_lid_collision_133.obj"/>
+    <mesh name="nist_lid_collision_134" file="collision/nist_lid_collision_134.obj"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="nist_lid">
+        <geom mesh="nist_lid" type="mesh" group="1" contype="0" conaffinity="0" material="steel_visual_nist_lid"/>
+        <geom mesh="nist_lid_collision_0" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_1" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_2" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_3" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_4" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_5" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_6" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_7" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_8" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_9" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_10" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_11" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_12" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_13" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_14" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_15" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_16" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_17" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_18" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_19" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_20" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_21" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_22" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_23" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_24" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_25" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_26" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_27" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_28" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_29" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_30" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_31" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_32" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_33" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_34" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_35" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_36" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_37" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_38" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_39" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_40" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_41" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_42" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_43" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_44" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_45" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_46" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_47" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_48" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_49" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_50" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_51" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_52" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_53" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_54" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_55" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_56" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_57" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_58" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_59" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_60" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_61" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_62" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_63" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_64" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_65" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_66" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_67" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_68" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_69" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_70" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_71" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_72" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_73" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_74" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_75" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_76" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_77" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_78" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_79" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_80" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_81" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_82" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_83" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_84" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_85" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_86" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_87" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_88" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_89" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_90" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_91" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_92" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_93" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_94" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_95" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_96" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_97" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_98" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_99" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_100" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_101" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_102" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_103" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_104" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_105" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_106" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_107" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_108" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_109" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_110" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_111" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_112" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_113" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_114" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_115" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_116" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_117" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_118" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_119" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_120" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_121" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_122" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_123" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_124" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_125" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_126" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_127" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_128" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_129" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_130" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_131" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_132" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_133" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <geom mesh="nist_lid_collision_134" type="mesh" group="0" density="1800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.00001 1" material="steel_nist_lid"/>
+        <!-- <site size="0.05" pos="0.04 0.01 0.01" name="grip_pos_site_nist_lid"/> -->
+      </body>
+      <!-- <site size="0.005" pos="0 0 0" name="bottom_site_nist_lid"/> -->
+      <!-- <site size="0.005" pos="0 0 0.02413" name="top_site_nist_lid  "/> -->
+      <!-- <site size="0.005" pos="0.156 0.156 0" name="horizontal_radius_site_nist_lid"/> -->
+    </body>
+  </worldbody>
+</mujoco>

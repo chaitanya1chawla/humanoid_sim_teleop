@@ -1,0 +1,89 @@
+robot_cfg:
+  name: gr1_inspire
+  urdf_path: gr1_inspire/urdf/gr1_inspire.urdf
+  xml_path: gr1_inspire/
+  mesh_path: gr1_inspire/meshes/
+  robot_indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+  body_indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+  left_arm_indices: [18, 19, 20, 21, 22, 23, 24]
+  right_arm_indices: [37, 38, 39, 40, 41, 42, 43]
+  left_hand_indices: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+  right_hand_indices: [44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+
+  arm_motor_indices: [18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 31, 33, 34, 37, 38, 39, 40, 41, 42, 43, 44, 46, 48, 50, 52, 53]
+
+  # xml order:
+  # left_arm_indices: [15, 16, 17, 18, 19, 20, 21]
+  # right_arm_indices: [34, 35, 36, 37, 38, 39, 40]
+  # left_hand_indices: [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+  # right_hand_indices: [41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+  waist_index: 12
+  torso_indices: [12, 13, 14]
+
+  # pd:
+  #   body_kp: 60
+  #   body_kd: 20
+  #   arm_kp: 60
+  #   arm_kd: 20
+  #   hand_kp: 50
+  #   hand_kd: 20
+
+  head_pos: [ 0.2, 0.0, 0.5 ]
+  left_wrist_name: L_hand_base_link
+  right_wrist_name: R_hand_base_link
+
+  body:
+    in_lp_alpha: 0.9
+
+  arm:
+    dt: 0.016667
+
+    scaling_factor: 1.0
+    base_damping: 1e-4
+    max_damping: 0.1
+    eps: 1e-2
+
+    in_lp_alpha: 0.5
+    out_lp_alpha: 0.5
+
+  # ee_type: "gripper"
+  # gripper_type: "1dof"
+  # human_hand_indices: [4, 9]
+
+  hand:
+    left_hand:
+      scaling_factor: [ 1.1, 1.1, 1.1, 1.1, 1.2, 1.0, 1.0 ]
+      in_lp_alpha: 0.5
+      out_lp_alpha: 0.5
+
+      target_origin_link_names: [  "L_hand_base_link", "L_hand_base_link", "L_hand_base_link", "L_hand_base_link", "L_hand_base_link", "L_thumb_tip", "L_thumb_tip" ]
+      target_task_link_names: [ "L_thumb_tip", "L_index_tip", "L_middle_tip", "L_ring_tip", "L_pinky_tip", "L_index_tip", "L_middle_tip" ]
+      target_link_human_indices: [ [0, 0, 0, 0, 0, 4, 4], [4, 9, 14, 19, 24, 9, 14] ]
+      dex_pilot: [None, None, None, None, None, ['<=', 0.03, 1e-4, 200], ['<=', 0.03, 1e-4, 200]]
+
+      mimic:
+        parent_joints: ["L_thumb_proximal_pitch_joint", "L_thumb_proximal_pitch_joint", "L_index_proximal_joint", "L_middle_proximal_joint", "L_ring_proximal_joint", "L_pinky_proximal_joint"]
+        child_joints: ["L_thumb_intermediate_joint", "L_thumb_distal_joint", "L_index_intermediate_joint", "L_middle_intermediate_joint", "L_ring_intermediate_joint", "L_pinky_intermediate_joint"]
+        mimic_factors: [1.6, 2.4, 1, 1, 1, 1]
+
+    right_hand:
+      scaling_factor: [ 1.1, 1.1, 1.1, 1.1, 1.2, 1.0, 1.0 ]
+      in_lp_alpha: 0.5
+      out_lp_alpha: 0.5
+
+      target_origin_link_names: [ "R_hand_base_link", "R_hand_base_link", "R_hand_base_link", "R_hand_base_link", "R_hand_base_link", "R_thumb_tip", "R_thumb_tip"]
+      target_task_link_names: [ "R_thumb_tip", "R_index_tip", "R_middle_tip", "R_ring_tip", "R_pinky_tip", "R_index_tip", "R_middle_tip" ]
+      target_link_human_indices: [ [0, 0, 0, 0, 0, 4, 4], [4, 9, 14, 19, 24, 9, 14] ]
+      dex_pilot: [None, None, None, None, None, ['<=', 0.015, 1e-4, 200], ['<=', 0.015, 1e-4, 200]]
+
+      mimic:
+        parent_joints: [ "R_thumb_proximal_pitch_joint", "R_thumb_proximal_pitch_joint", "R_index_proximal_joint", "R_middle_proximal_joint", "R_ring_proximal_joint", "R_pinky_proximal_joint" ]
+        child_joints: [ "R_thumb_intermediate_joint", "R_thumb_distal_joint", "R_index_intermediate_joint", "R_middle_intermediate_joint", "R_ring_intermediate_joint", "R_pinky_intermediate_joint" ]
+        mimic_factors: [ 1.6, 2.4, 1, 1, 1, 1 ]
+  
+  ee:
+    left_ee:
+      gripper_range: [0.0, 1.6]
+
+    right_ee:
+      gripper_range: [0.0, -1.6]

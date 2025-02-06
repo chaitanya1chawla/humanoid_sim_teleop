@@ -1,0 +1,29 @@
+<mujoco model="nist_lid">
+  <asset>
+    <material name="steel_visual_nist_lid" rgba="0.6 0.6 0.65 1.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <material name="steel_nist_lid" rgba="0.6 0.6 0.65 0.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <mesh name="nist_lid" file="../objects/bigym/nist_lid/nist_lid.STL" scale="0.00055 0.00055 0.00055"/>
+    <mesh name="nist_lid_updated" file="../objects/bigym/nist_lid/nist_lid2.STL" scale="0.00055 0.00055 0.00055"/>
+  </asset>
+
+  <default class="main">
+    <default class="nist_lid">
+      <default class="nist_lid_visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="nist_lid_collision">
+        <geom type="mesh" group="3" solref="0.004" solimp="0.95 0.98" condim="3"/>
+      </default>
+    </default>
+  </default>
+
+  <worldbody>
+    <body name="nist_lid" pos="0.63 0.2 1.23" quat="0 0 0 1">
+      <freejoint/>
+      <geom class="nist_lid_visual" mesh="nist_lid" 
+            material="steel_visual_nist_lid" mass="0.2"/>
+      <geom class="nist_lid_collision" mesh="nist_lid_updated" 
+            material="steel_nist_lid" />
+    </body>
+  </worldbody>
+</mujoco>

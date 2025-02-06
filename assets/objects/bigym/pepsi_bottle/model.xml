@@ -1,0 +1,39 @@
+<mujoco model="untitled">
+  <default>
+    <default class="pepsi_bottle_visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="pepsi_bottle_collision">
+      <geom group="3" type="mesh" solref="0.001" solimp="1 1" condim="6"/>
+    </default>
+  </default>
+  <asset>
+    <texture type="2d" name="shaded_bottle" file="../objects/bigym/pepsi_bottle/shaded.png"/>
+    <material name="bottle_material.001" texture="shaded_bottle" specular="0.5" shininess="0.5"/>
+    <mesh file="../objects/bigym/pepsi_bottle/untitled.obj" name="pepsi_bottle_visual_0" scale="0.11 0.11 0.11" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/pepsi_bottle/untitled_collision_0.obj" name="pepsi_bottle_collision_0" scale="0.11 0.11 0.11" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/pepsi_bottle/untitled_collision_1.obj" name="pepsi_bottle_collision_1" scale="0.11 0.11 0.11" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/pepsi_bottle/untitled_collision_2.obj" name="pepsi_bottle_collision_2" scale="0.11 0.11 0.11" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/pepsi_bottle/untitled_collision_3.obj" name="pepsi_bottle_collision_3" scale="0.11 0.11 0.11" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/pepsi_bottle/untitled_collision_4.obj" name="pepsi_bottle_collision_4" scale="0.11 0.11 0.11" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/pepsi_bottle/untitled_collision_5.obj" name="pepsi_bottle_collision_5" scale="0.11 0.11 0.11" refquat="0.707 -0.707 0.0 0.0"/>
+    <mesh file="../objects/bigym/pepsi_bottle/hexagon.stl" name="pepsi_collision" scale="0.0335 0.0335 0.082" />
+  </asset>
+  <worldbody>
+    <body name="pepsi_bottle" pos="0.55 -0.3 1.23">
+      <freejoint/>
+      <geom material="bottle_material.001" mesh="pepsi_bottle_visual_0" class="pepsi_bottle_visual"/>
+      <!-- <geom type="cylinder" size="0.032 0.085" pos="0 0 0.086" rgba="1 1 1 1" class="pepsi_bottle_collision" mass="0.1" /> -->
+      <geom mesh="pepsi_collision" pos="0 0 0.086" rgba="1 1 1 0" class="pepsi_bottle_collision" mass="0.5"/>
+      <!-- <geom mesh="pepsi_collision" pos="0 0 0.086" rgba="1 1 1 1" class="pepsi_bottle_visual"/> -->
+
+
+      <!-- <geom mesh="pepsi_bottle_collision_0" rgba="0.6870120435227649 0.8368391144886344 0.011680818502357804 1" class="pepsi_bottle_collision" mass="0.4"/> -->
+      <!-- <geom mesh="pepsi_bottle_collision_1" rgba="0.3177731828855537 0.7777447319762398 0.16440952667406183 1" class="pepsi_bottle_collision"/> -->
+      <!-- <geom mesh="pepsi_bottle_collision_2" rgba="0.8395070245633945 0.2952809061916013 0.12367354328777946 1" class="pepsi_bottle_collision"/> -->
+      <!-- <geom mesh="pepsi_bottle_collision_3" rgba="0.00695074366131776 0.25005145984747146 0.7291256032391586 1" class="pepsi_bottle_collision"/> -->
+      <!-- <geom mesh="pepsi_bottle_collision_4" rgba="0.8803274985618311 0.02176919151819534 0.5997887037670468 1" class="pepsi_bottle_collision"/> -->
+      <!-- <geom mesh="pepsi_bottle_collision_5" rgba="0.45442744500490784 0.28772535248798503 0.4299484268157845 1" class="pepsi_bottle_collision"/> -->
+    </body>
+  </worldbody>
+</mujoco>

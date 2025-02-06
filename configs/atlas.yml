@@ -1,0 +1,25 @@
+robot_cfg:
+  name: atlas
+  urdf_path: atlas/urdf/atlas_v4_with_multisense.urdf
+  body_indices: [0, 1, 2, 9, 10, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+  left_arm_indices: [3, 4, 5, 6, 7, 8]
+  right_arm_indices: [11, 12, 13, 14, 15, 16]
+
+  head_pos: [ 0.2, 0.0, 0.5 ]
+  left_wrist_name: l_hand_keypoint
+  right_wrist_name: r_hand_keypoint
+
+  body:
+    in_lp_alpha: 0.9
+
+  arm:
+    dt: 0.016667
+
+    scaling_factor: 1.1
+    base_damping: 1e-4
+    max_damping: 1e-2
+    eps: 1e-2
+
+    in_lp_alpha: 0.5
+    out_lp_alpha: 0.5
+

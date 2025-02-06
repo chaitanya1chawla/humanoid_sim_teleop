@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="table_dishwasher">
+  <compiler angle="radian" autolimits="true"/>
+  <asset>
+    <texture type="2d" name="table" file="../objects/bigym/table_dishwasher/assets/table.png"/>
+    <material name="table_dishwasher" specular="0.3" shininess="0.5" rgba="0.62 0.62 0.6 1" texture="table"/>
+    <material name="table_dishwasher_legs" specular="0.3" shininess="0.5" rgba="1 1 1 1" texture="table"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher.obj"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher_legs.obj"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher_collision_001.obj"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher_collision_002.obj"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher_collision_003.obj"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher_collision_004.obj"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher_collision_005.obj"/>
+    <mesh file="../objects/bigym/table_dishwasher/assets/table_dishwasher_collision_006.obj"/>
+  </asset>
+  <default>
+    <default class="table_dishwasher">
+      <default class="td_visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" euler="1.5708 0 0" material="table_dishwasher"/>
+      </default>
+      <default class="td_collision">
+        <geom type="mesh" group="3" euler="1.5708 0 0"/>
+      </default>
+    </default>
+  </default>
+  <worldbody>
+  <!-- adding 0.1 0 0.15 to pos -->
+    <body name="table_dishwasher" childclass="table_dishwasher" pos="0.7 0 0.23" quat="0.7 0 0 -0.7">
+      <geom name="td_mesh" mesh="table_dishwasher" class="td_visual" material="table_dishwasher"/>
+      <geom name="td_mesh_legs" mesh="table_dishwasher_legs" class="td_visual" material="table_dishwasher_legs"/>
+      <geom name="td_collider_001" mesh="table_dishwasher_collision_001" class="td_collision"/>
+      <geom name="td_collider_002" mesh="table_dishwasher_collision_002" class="td_collision"/>
+      <geom name="td_collider_003" mesh="table_dishwasher_collision_003" class="td_collision"/>
+      <geom name="td_collider_004" mesh="table_dishwasher_collision_004" class="td_collision"/>
+      <geom name="td_collider_005" mesh="table_dishwasher_collision_005" class="td_collision"/>
+      <geom name="td_collider_006" mesh="table_dishwasher_collision_006" class="td_collision"/>
+    </body>
+  </worldbody>
+</mujoco>

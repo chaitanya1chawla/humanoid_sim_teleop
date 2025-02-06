@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="box">
+  <compiler angle="radian" meshdir="assets" texturedir="assets" autolimits="true"/>
+  <asset>
+    <mesh file="box.obj"/>
+    <texture type="2d" name="box" file="box.png"/>
+    <material name="box" specular="0.2" shininess="0.2" texture="box"/>
+  </asset>
+  <default>
+    <default class="box">
+      <default class="visual">
+        <geom type="mesh" mass="5" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="collision">
+        <geom type="mesh" mass="0" group="3" solimp="0.95 0.98 0.001" solref="0.004 1" friction="1.5"/>
+      </default>
+    </default>
+  </default>
+  <worldbody>
+    <body name="box" childclass="box">
+      <geom name="mesh" mesh="box" class="visual" material="box" euler="1.5708 0 0"/>
+      <geom name="collider" size="0.125 0.1 0.06" type="box" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

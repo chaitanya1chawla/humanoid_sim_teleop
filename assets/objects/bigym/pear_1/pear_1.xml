@@ -1,0 +1,89 @@
+<mujoco model="pear_7">
+  <asset>
+    <mesh file="../objects/bigym/pear_1/visual/model_normalized_0.obj" name="pear_1_model_normalized_0_vis" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_22.obj" name="pear_1_model_normalized_collision_22._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_23.obj" name="pear_1_model_normalized_collision_23._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_21.obj" name="pear_1_model_normalized_collision_21._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_20.obj" name="pear_1_model_normalized_collision_20._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_24.obj" name="pear_1_model_normalized_collision_24._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_30.obj" name="pear_1_model_normalized_collision_30._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_18.obj" name="pear_1_model_normalized_collision_18._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_19.obj" name="pear_1_model_normalized_collision_19._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_31.obj" name="pear_1_model_normalized_collision_31._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_25.obj" name="pear_1_model_normalized_collision_25._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_27.obj" name="pear_1_model_normalized_collision_27._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_26.obj" name="pear_1_model_normalized_collision_26._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_9.obj" name="pear_1_model_normalized_collision_9._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_8.obj" name="pear_1_model_normalized_collision_8._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_6.obj" name="pear_1_model_normalized_collision_6._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_7.obj" name="pear_1_model_normalized_collision_7._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_5.obj" name="pear_1_model_normalized_collision_5._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_4.obj" name="pear_1_model_normalized_collision_4._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_0.obj" name="pear_1_model_normalized_collision_0._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_1.obj" name="pear_1_model_normalized_collision_1._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_3.obj" name="pear_1_model_normalized_collision_3._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_2.obj" name="pear_1_model_normalized_collision_2._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_17.obj" name="pear_1_model_normalized_collision_17._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_16.obj" name="pear_1_model_normalized_collision_16._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_28.obj" name="pear_1_model_normalized_collision_28._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_14.obj" name="pear_1_model_normalized_collision_14._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_15.obj" name="pear_1_model_normalized_collision_15._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_29.obj" name="pear_1_model_normalized_collision_29._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_11.obj" name="pear_1_model_normalized_collision_11._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_10.obj" name="pear_1_model_normalized_collision_10._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_12.obj" name="pear_1_model_normalized_collision_12._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <mesh file="../objects/bigym/pear_1/collision/model_normalized_collision_13.obj" name="pear_1_model_normalized_collision_13._coll" scale="0.12 0.12 0.12" refquat="0.4999999999999999 0.4999999999999999 0.5 0.5"/>
+    <texture type="2d" name="pear_1_image0" file="../objects/bigym/pear_1/visual/image0.png"/>
+    <material name="material_0.094" texture="pear_1_image0" specular="0.5" shininess="0.15999998099999999"/>
+  </asset>
+
+  <default class="main">
+    <default class="pear_1">
+      <default class="pear_1_visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="pear_1_collision">
+        <geom type="mesh" group="3" solref="0.004" solimp="0.95 0.98" condim="3"/>
+      </default>
+    </default>
+  </default>
+
+  <worldbody>
+      <body name="pear_1_object" pos="0.5 0.1 1.23" quat=" 1 0 0 0">
+        <freejoint/>
+        <geom class="pear_1_visual" mesh="pear_1_model_normalized_0_vis" material="material_0.094"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_22._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_23._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_21._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_20._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_24._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_30._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_18._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_19._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_31._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_25._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_27._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_26._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_9._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_8._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_6._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_7._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_5._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_4._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_0._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_1._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_3._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_2._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_17._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_16._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_28._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_14._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_15._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_29._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_11._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_10._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_12._coll" rgba="0.8 0.8 0.8 0.0"/>
+        <geom class="pear_1_collision" mesh="pear_1_model_normalized_collision_13._coll" rgba="0.8 0.8 0.8 0.0"/>
+      </body>
+  </worldbody>
+</mujoco>

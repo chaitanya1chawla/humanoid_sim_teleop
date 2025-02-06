@@ -1,0 +1,29 @@
+<mujoco model="nist_layer">
+  <asset>
+    <material name="steel_visual_nist_layer" rgba="0.6 0.6 0.65 1.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <material name="steel_nist_layer" rgba="0.6 0.6 0.65 0.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <mesh name="nist_layer" file="../objects/bigym/nist_misc/nist_ftc_09_layer.STL" scale="0.00055 0.00055 0.00055"/>
+    <mesh name="nist_layer_updated" file="../objects/bigym/nist_misc/nist_ftc_09_layer.STL" scale="0.00055 0.00155 0.00055"/>
+  </asset>
+
+  <default class="main">
+    <default class="nist_layer">
+      <default class="nist_layer_visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="nist_layer_collision">
+        <geom type="mesh" group="3" solref="0.00001 1" solimp="2 2 0.001" condim="6" />
+      </default>
+    </default>
+  </default>
+
+  <worldbody>
+    <body name="nist_layer" pos="0.46 0.35 1.25" quat="0.92 0.3 0 0">
+      <freejoint/>
+      <geom class="nist_layer_visual" mesh="nist_layer_updated" 
+            material="steel_visual_nist_layer" mass="2"/>
+      <geom class="nist_layer_collision" mesh="nist_layer_updated" 
+            material="steel_nist_layer" friction="1 0.8 0.1" />
+    </body>
+  </worldbody>
+</mujoco>

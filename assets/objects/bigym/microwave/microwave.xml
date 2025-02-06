@@ -1,0 +1,82 @@
+<mujoco model="microwave_model">
+  <compiler angle="radian"/>
+  <asset>
+    <texture file="../objects/bigym/microwave/visuals/material_0.png" name="microwave_model" type="2d"/>
+    <texture type="2d" name="image7" file="../objects/bigym/microwave/visuals/image7.png"/>
+    <texture type="2d" name="image10" file="../objects/bigym/microwave/visuals/image10.png"/>
+    <texture type="2d" name="image13" file="../objects/bigym/microwave/visuals/image13.png"/>
+    <material name="microwave_model" reflectance="0.5" texrepeat="1 1" texture="microwave_model" texuniform="false"/>
+    <material name="TX_Microwave_2_1" texture="image7" specular="0.5" shininess="0.25"/>
+    <material name="TX_Microwave_2_2" texture="image10" specular="0.5" shininess="0.25"/>
+    <material name="TX_Microwave_2_3" texture="image13" specular="0.5" shininess="0.25"/>
+    <mesh file="../objects/bigym/microwave/visuals/model_0.obj" name="microwave_model_0_vis" scale="0.5 0.5 0.5"/>
+    <mesh file="../objects/bigym/microwave/visuals/model_1.obj" name="microwave_model_1_vis" scale="0.5 0.5 0.5"/>
+    <mesh file="../objects/bigym/microwave/visuals/model_2.obj" name="microwave_model_2_vis" scale="0.5 0.5 0.5"/>
+    <mesh file="../objects/bigym/microwave/visuals/door_0.obj" name="door_0_vis" scale="0.5 0.5 0.5"/>
+    <mesh file="../objects/bigym/microwave/visuals/door_1.obj" name="door_1_vis" scale="0.5 0.5 0.5"/>
+    <mesh file="../objects/bigym/microwave/visuals/door_2.obj" name="door_2_vis" scale="0.5 0.5 0.5"/>
+  </asset>
+  <default>
+    <default class="microwave_visual">
+      <geom conaffinity="0" contype="0" group="1" type="mesh"/>
+    </default>
+    <default class="microwave_collision">
+      <geom group="0" rgba="0.5 0 0 0"/>
+    </default>
+  </default>
+  <worldbody>
+    <body name="microwave_object" pos="0.79 0.01 1.33" quat="0.707 0 0 -0.707">
+      <body>
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="microwave_model_0_vis" material="TX_Microwave_2_2" class="microwave_visual"/>
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="microwave_model_1_vis" material="TX_Microwave_2_3" class="microwave_visual"/>
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="microwave_model_2_vis" material="TX_Microwave_2_1" class="microwave_visual"/>
+        <!-- Back -->
+        <geom class="microwave_collision" type="box" pos="0 0.206 0" size="0.2465 0.044 0.154"/>
+        <!-- Bottom -->
+        <geom class="microwave_collision" type="box" pos="0 0 -0.124" size="0.2465 0.1755 0.0275"/>
+        <!-- Left -->
+        <geom class="microwave_collision" type="box" pos="-0.234 0 0" size="0.0125 0.1755 0.154"/>
+        <!-- Right -->
+        <geom class="microwave_collision" type="box" pos="0.1715 0 0" size="0.075 0.1755 0.154"/>
+        <!-- Top -->
+        <geom class="microwave_collision" type="box" pos="0 0 0.1395" size="0.2465 0.1755 0.0145"/>
+        <!-- Numpad -->
+        <geom class="microwave_collision" type="box" pos="0.1905 -0.194 0.0115" size="0.056 0.0185 0.1425"/>
+        <!-- Knob -->
+        <geom class="microwave_collision" type="cylinder" pos="0.17375 -0.22 -0.05" size="0.0215 0.0085 0" axisangle="1 0 0 1.57"/>
+        <!-- start/stop buttons -->
+        <geom class="microwave_collision" type="box" pos="0.21 -0.205 -0.075" size="0.015 0.0108 0.0125" name="start_button" rgba="0.0 0.5 0 0.5"/>
+        <geom class="microwave_collision" type="box" pos="0.174 -0.2175 -0.05" size="0.0125 0.0108 0.0125" name="stop_button" rgba="0.0 0.5 0 0.5"/>
+        <geom class="microwave_collision" type="cylinder" pos="-0.06 -0.01 -0.1" size="0.11 0.0025" rgba="0 1 0 0.5" name="tray"/>
+        <body name="door">
+          <joint axis="0 0 1" limited="true" name="microjoint" range="-1.57 0" damping="2" frictionloss="2" armature=".01" pos="-0.2465 -0.1755 0" ref="0"/>
+          <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="door_0_vis" material="TX_Microwave_2_3" class="microwave_visual"/>
+          <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="door_1_vis" material="TX_Microwave_2_1" class="microwave_visual"/>
+          <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="door_2_vis" material="TX_Microwave_2_2" class="microwave_visual"/>
+          <!-- Door Main -->
+          <geom class="microwave_collision" type="box" pos="-0.056 -0.1945 0.0115" size="0.19 0.0185 0.1425"/>
+          <!-- Handle Top -->
+          <geom class="microwave_collision" type="box" pos="0.1095 -0.2265 0.113" size="0.0135 0.0235 0.016"/>
+          <!-- Handle Top -->
+          <geom class="microwave_collision" type="box" pos="0.1095 -0.2265 -0.071" size="0.0135 0.0235 0.016"/>
+          <!-- Handle Main -->
+          <geom class="microwave_collision" type="box" pos="0.1095 -0.2435 0.0195" size="0.0125 0.0066 0.09" name="door_handle"/>
+          <!-- door sites -->
+          <site rgba="1 0 0 0" size="0.0025" pos="-0.0375 -0.21 0.005" name="door_p1"/>
+          <site rgba="0 1 0 0" size="0.0025" pos="-0.0125 -0.21 0.005" name="door_p2"/>
+          <site rgba="0 0 1 0" size="0.0025" pos="-0.0375 -0.21 0.03" name="door_p3"/>
+        </body>
+        <!-- exterior bounding box points -->
+        <site rgba="0 0 0 1" size="0.005" pos="-0.2465 -0.213 -0.131" />
+        <site rgba="1 0 0 1" size="0.005" pos="0.2465 -0.213 -0.131" />
+        <site rgba="0 1 0 1" size="0.005" pos="-0.2465 0.2325 -0.131" />
+        <site rgba="0 0 1 1" size="0.005" pos="-0.2465 -0.213 0.154" />
+        <!-- interior bounding box points -->
+        <site rgba="0.5 0.5 0.5 1" size="0.005" pos="-0.2215 -0.1755 -0.0965" />
+        <site rgba="1 1 0 1" size="0.005" pos="0.0965 -0.1755 -0.0965" />
+        <site rgba="0 1 1 1" size="0.005" pos="-0.2215 0.162 -0.0965" />
+        <site rgba="1 0 1 1" size="0.005" pos="-0.2215 -0.1755 0.125" />
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

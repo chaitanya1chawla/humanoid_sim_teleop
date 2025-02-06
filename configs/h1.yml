@@ -1,0 +1,25 @@
+robot_cfg:
+  name: h1
+  body_indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  left_arm_indices: [11, 12, 13, 14]
+  right_arm_indices: [15, 16, 17, 18]
+
+  body:
+    # model_path: None
+    low_pass_alpha: 0.9
+
+  arm:
+    dt: 0.016667
+    urdf_path: h1/h1.urdf
+    mesh_path: h1/meshes
+
+    collision: False
+    scaling_factor: 1.1
+    ik_damping: 1e-2
+    eps: 1e-3
+    left_wrist: left_hand_keypoint_link
+    right_wrist: right_hand_keypoint_link
+    locked_joints: ['torso_joint']
+
+    low_pass_alpha: 0.8
+

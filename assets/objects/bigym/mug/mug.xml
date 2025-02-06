@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="mug">
+  <compiler angle="radian" autolimits="true"/>
+  <asset>
+    <texture type="2d" name="mug" file="../objects/bigym/mug/assets/mug.png"/>
+    <material name="mug" specular="0.8" shininess="0.5" rgba="1 1 1 1" texture="mug"/>
+    <mesh file="../objects/bigym/mug/assets/mug.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_001.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_002.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_003.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_004.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_005.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_006.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_007.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_008.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_009.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_010.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_011.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_012.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_013.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_014.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_015.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_016.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_017.obj"/>
+    <mesh file="../objects/bigym/mug/assets/mug_collision_018.obj"/>
+  </asset>
+  <default>
+    <default class="mug">
+      <default class="mug_visual">
+        <geom group="2" type="mesh" contype="0" conaffinity="0" euler="1.5708 0 0" material="mug"/>
+      </default>
+      <default class="mug_collision">
+        <geom group="3"  type="mesh" solimp="0.95 0.98" solref="0.004" euler="1.5708 0 0" condim="6"/>
+      </default>
+    </default>
+  </default>
+  <worldbody>
+    <!-- <body name="mug" childclass="mug" pos="0.1 0 1.7">  #### This is the head pose #### -->
+    <body name="mug" childclass="mug" pos="0.6 0.1 1.23">
+      <freejoint/>
+      <geom name="mug_mesh" mesh="mug" class="mug_visual"/>
+      <geom name="mug_collider_001" mesh="mug_collision_001" class="mug_collision"/>
+      <geom name="mug_collider_002" mesh="mug_collision_002" class="mug_collision"/>
+      <geom name="mug_collider_003" mesh="mug_collision_003" class="mug_collision"/>
+      <geom name="mug_collider_004" mesh="mug_collision_004" class="mug_collision"/>
+      <geom name="mug_collider_005" mesh="mug_collision_005" class="mug_collision"/>
+      <geom name="mug_collider_006" mesh="mug_collision_006" class="mug_collision"/>
+      <geom name="mug_collider_007" mesh="mug_collision_007" class="mug_collision"/>
+      <geom name="mug_collider_008" mesh="mug_collision_008" class="mug_collision"/>
+      <geom name="mug_collider_009" mesh="mug_collision_009" class="mug_collision"/>
+      <geom name="mug_collider_010" mesh="mug_collision_010" class="mug_collision"/>
+      <geom name="mug_collider_011" mesh="mug_collision_011" class="mug_collision"/>
+      <geom name="mug_collider_012" mesh="mug_collision_012" class="mug_collision"/>
+      <geom name="mug_collider_013" mesh="mug_collision_013" class="mug_collision"/>
+      <geom name="mug_collider_014" mesh="mug_collision_014" class="mug_collision"/>
+      <geom name="mug_collider_015" mesh="mug_collision_015" class="mug_collision"/>
+      <geom name="mug_collider_016" mesh="mug_collision_016" class="mug_collision"/>
+      <geom name="mug_collider_017" mesh="mug_collision_017" class="mug_collision"/>
+      <geom name="mug_collider_018" mesh="mug_collision_018" class="mug_collision"/>
+    </body>
+  </worldbody>
+</mujoco>

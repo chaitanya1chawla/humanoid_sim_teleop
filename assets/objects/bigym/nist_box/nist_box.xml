@@ -1,0 +1,491 @@
+<mujoco model="nist_box">
+  <asset>
+    <material name="steel_visual_nist_box" rgba="0.6 0.6 0.65 1.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <material name="steel_nist_box" rgba="0.6 0.6 0.65 0.0" specular="0.8" shininess="0.9" reflectance="0.6"/>
+    <mesh name="nist_box" file="../objects/bigym/nist_box/collision/nist_box.obj"/>
+    <mesh name="nist_box_collision_0" file="../objects/bigym/nist_box/collision/nist_box_collision_0.obj"/>
+    <mesh name="nist_box_collision_1" file="../objects/bigym/nist_box/collision/nist_box_collision_1.obj"/>
+    <mesh name="nist_box_collision_2" file="../objects/bigym/nist_box/collision/nist_box_collision_2.obj"/>
+    <mesh name="nist_box_collision_3" file="../objects/bigym/nist_box/collision/nist_box_collision_3.obj"/>
+    <mesh name="nist_box_collision_4" file="../objects/bigym/nist_box/collision/nist_box_collision_4.obj"/>
+    <mesh name="nist_box_collision_5" file="../objects/bigym/nist_box/collision/nist_box_collision_5.obj"/>
+    <mesh name="nist_box_collision_6" file="../objects/bigym/nist_box/collision/nist_box_collision_6.obj"/>
+    <mesh name="nist_box_collision_7" file="../objects/bigym/nist_box/collision/nist_box_collision_7.obj"/>
+    <mesh name="nist_box_collision_8" file="../objects/bigym/nist_box/collision/nist_box_collision_8.obj"/>
+    <mesh name="nist_box_collision_9" file="../objects/bigym/nist_box/collision/nist_box_collision_9.obj"/>
+    <mesh name="nist_box_collision_10" file="../objects/bigym/nist_box/collision/nist_box_collision_10.obj"/>
+    <mesh name="nist_box_collision_11" file="../objects/bigym/nist_box/collision/nist_box_collision_11.obj"/>
+    <mesh name="nist_box_collision_12" file="../objects/bigym/nist_box/collision/nist_box_collision_12.obj"/>
+    <mesh name="nist_box_collision_13" file="../objects/bigym/nist_box/collision/nist_box_collision_13.obj"/>
+    <mesh name="nist_box_collision_14" file="../objects/bigym/nist_box/collision/nist_box_collision_14.obj"/>
+    <mesh name="nist_box_collision_15" file="../objects/bigym/nist_box/collision/nist_box_collision_15.obj"/>
+    <mesh name="nist_box_collision_16" file="../objects/bigym/nist_box/collision/nist_box_collision_16.obj"/>
+    <mesh name="nist_box_collision_17" file="../objects/bigym/nist_box/collision/nist_box_collision_17.obj"/>
+    <mesh name="nist_box_collision_18" file="../objects/bigym/nist_box/collision/nist_box_collision_18.obj"/>
+    <mesh name="nist_box_collision_19" file="../objects/bigym/nist_box/collision/nist_box_collision_19.obj"/>
+    <mesh name="nist_box_collision_20" file="../objects/bigym/nist_box/collision/nist_box_collision_20.obj"/>
+    <mesh name="nist_box_collision_21" file="../objects/bigym/nist_box/collision/nist_box_collision_21.obj"/>
+    <mesh name="nist_box_collision_22" file="../objects/bigym/nist_box/collision/nist_box_collision_22.obj"/>
+    <mesh name="nist_box_collision_23" file="../objects/bigym/nist_box/collision/nist_box_collision_23.obj"/>
+    <mesh name="nist_box_collision_24" file="../objects/bigym/nist_box/collision/nist_box_collision_24.obj"/>
+    <mesh name="nist_box_collision_25" file="../objects/bigym/nist_box/collision/nist_box_collision_25.obj"/>
+    <mesh name="nist_box_collision_26" file="../objects/bigym/nist_box/collision/nist_box_collision_26.obj"/>
+    <mesh name="nist_box_collision_27" file="../objects/bigym/nist_box/collision/nist_box_collision_27.obj"/>
+    <mesh name="nist_box_collision_28" file="../objects/bigym/nist_box/collision/nist_box_collision_28.obj"/>
+    <mesh name="nist_box_collision_29" file="../objects/bigym/nist_box/collision/nist_box_collision_29.obj"/>
+    <mesh name="nist_box_collision_30" file="../objects/bigym/nist_box/collision/nist_box_collision_30.obj"/>
+    <mesh name="nist_box_collision_31" file="../objects/bigym/nist_box/collision/nist_box_collision_31.obj"/>
+    <mesh name="nist_box_collision_32" file="../objects/bigym/nist_box/collision/nist_box_collision_32.obj"/>
+    <mesh name="nist_box_collision_33" file="../objects/bigym/nist_box/collision/nist_box_collision_33.obj"/>
+    <mesh name="nist_box_collision_34" file="../objects/bigym/nist_box/collision/nist_box_collision_34.obj"/>
+    <mesh name="nist_box_collision_35" file="../objects/bigym/nist_box/collision/nist_box_collision_35.obj"/>
+    <mesh name="nist_box_collision_36" file="../objects/bigym/nist_box/collision/nist_box_collision_36.obj"/>
+    <mesh name="nist_box_collision_37" file="../objects/bigym/nist_box/collision/nist_box_collision_37.obj"/>
+    <mesh name="nist_box_collision_38" file="../objects/bigym/nist_box/collision/nist_box_collision_38.obj"/>
+    <mesh name="nist_box_collision_39" file="../objects/bigym/nist_box/collision/nist_box_collision_39.obj"/>
+    <mesh name="nist_box_collision_40" file="../objects/bigym/nist_box/collision/nist_box_collision_40.obj"/>
+    <mesh name="nist_box_collision_41" file="../objects/bigym/nist_box/collision/nist_box_collision_41.obj"/>
+    <mesh name="nist_box_collision_42" file="../objects/bigym/nist_box/collision/nist_box_collision_42.obj"/>
+    <mesh name="nist_box_collision_43" file="../objects/bigym/nist_box/collision/nist_box_collision_43.obj"/>
+    <mesh name="nist_box_collision_44" file="../objects/bigym/nist_box/collision/nist_box_collision_44.obj"/>
+    <mesh name="nist_box_collision_45" file="../objects/bigym/nist_box/collision/nist_box_collision_45.obj"/>
+    <mesh name="nist_box_collision_46" file="../objects/bigym/nist_box/collision/nist_box_collision_46.obj"/>
+    <mesh name="nist_box_collision_47" file="../objects/bigym/nist_box/collision/nist_box_collision_47.obj"/>
+    <mesh name="nist_box_collision_48" file="../objects/bigym/nist_box/collision/nist_box_collision_48.obj"/>
+    <mesh name="nist_box_collision_49" file="../objects/bigym/nist_box/collision/nist_box_collision_49.obj"/>
+    <mesh name="nist_box_collision_50" file="../objects/bigym/nist_box/collision/nist_box_collision_50.obj"/>
+    <mesh name="nist_box_collision_51" file="../objects/bigym/nist_box/collision/nist_box_collision_51.obj"/>
+    <mesh name="nist_box_collision_52" file="../objects/bigym/nist_box/collision/nist_box_collision_52.obj"/>
+    <mesh name="nist_box_collision_53" file="../objects/bigym/nist_box/collision/nist_box_collision_53.obj"/>
+    <mesh name="nist_box_collision_54" file="../objects/bigym/nist_box/collision/nist_box_collision_54.obj"/>
+    <mesh name="nist_box_collision_55" file="../objects/bigym/nist_box/collision/nist_box_collision_55.obj"/>
+    <mesh name="nist_box_collision_56" file="../objects/bigym/nist_box/collision/nist_box_collision_56.obj"/>
+    <mesh name="nist_box_collision_57" file="../objects/bigym/nist_box/collision/nist_box_collision_57.obj"/>
+    <mesh name="nist_box_collision_58" file="../objects/bigym/nist_box/collision/nist_box_collision_58.obj"/>
+    <mesh name="nist_box_collision_59" file="../objects/bigym/nist_box/collision/nist_box_collision_59.obj"/>
+    <mesh name="nist_box_collision_60" file="../objects/bigym/nist_box/collision/nist_box_collision_60.obj"/>
+    <mesh name="nist_box_collision_61" file="../objects/bigym/nist_box/collision/nist_box_collision_61.obj"/>
+    <mesh name="nist_box_collision_62" file="../objects/bigym/nist_box/collision/nist_box_collision_62.obj"/>
+    <mesh name="nist_box_collision_63" file="../objects/bigym/nist_box/collision/nist_box_collision_63.obj"/>
+    <mesh name="nist_box_collision_64" file="../objects/bigym/nist_box/collision/nist_box_collision_64.obj"/>
+    <mesh name="nist_box_collision_65" file="../objects/bigym/nist_box/collision/nist_box_collision_65.obj"/>
+    <mesh name="nist_box_collision_66" file="../objects/bigym/nist_box/collision/nist_box_collision_66.obj"/>
+    <mesh name="nist_box_collision_67" file="../objects/bigym/nist_box/collision/nist_box_collision_67.obj"/>
+    <mesh name="nist_box_collision_68" file="../objects/bigym/nist_box/collision/nist_box_collision_68.obj"/>
+    <mesh name="nist_box_collision_69" file="../objects/bigym/nist_box/collision/nist_box_collision_69.obj"/>
+    <mesh name="nist_box_collision_70" file="../objects/bigym/nist_box/collision/nist_box_collision_70.obj"/>
+    <mesh name="nist_box_collision_71" file="../objects/bigym/nist_box/collision/nist_box_collision_71.obj"/>
+    <mesh name="nist_box_collision_72" file="../objects/bigym/nist_box/collision/nist_box_collision_72.obj"/>
+    <mesh name="nist_box_collision_73" file="../objects/bigym/nist_box/collision/nist_box_collision_73.obj"/>
+    <mesh name="nist_box_collision_74" file="../objects/bigym/nist_box/collision/nist_box_collision_74.obj"/>
+    <mesh name="nist_box_collision_75" file="../objects/bigym/nist_box/collision/nist_box_collision_75.obj"/>
+    <mesh name="nist_box_collision_76" file="../objects/bigym/nist_box/collision/nist_box_collision_76.obj"/>
+    <mesh name="nist_box_collision_77" file="../objects/bigym/nist_box/collision/nist_box_collision_77.obj"/>
+    <mesh name="nist_box_collision_78" file="../objects/bigym/nist_box/collision/nist_box_collision_78.obj"/>
+    <mesh name="nist_box_collision_79" file="../objects/bigym/nist_box/collision/nist_box_collision_79.obj"/>
+    <mesh name="nist_box_collision_80" file="../objects/bigym/nist_box/collision/nist_box_collision_80.obj"/>
+    <mesh name="nist_box_collision_81" file="../objects/bigym/nist_box/collision/nist_box_collision_81.obj"/>
+    <mesh name="nist_box_collision_82" file="../objects/bigym/nist_box/collision/nist_box_collision_82.obj"/>
+    <mesh name="nist_box_collision_83" file="../objects/bigym/nist_box/collision/nist_box_collision_83.obj"/>
+    <mesh name="nist_box_collision_84" file="../objects/bigym/nist_box/collision/nist_box_collision_84.obj"/>
+    <mesh name="nist_box_collision_85" file="../objects/bigym/nist_box/collision/nist_box_collision_85.obj"/>
+    <mesh name="nist_box_collision_86" file="../objects/bigym/nist_box/collision/nist_box_collision_86.obj"/>
+    <mesh name="nist_box_collision_87" file="../objects/bigym/nist_box/collision/nist_box_collision_87.obj"/>
+    <mesh name="nist_box_collision_88" file="../objects/bigym/nist_box/collision/nist_box_collision_88.obj"/>
+    <mesh name="nist_box_collision_89" file="../objects/bigym/nist_box/collision/nist_box_collision_89.obj"/>
+    <mesh name="nist_box_collision_90" file="../objects/bigym/nist_box/collision/nist_box_collision_90.obj"/>
+    <mesh name="nist_box_collision_91" file="../objects/bigym/nist_box/collision/nist_box_collision_91.obj"/>
+    <mesh name="nist_box_collision_92" file="../objects/bigym/nist_box/collision/nist_box_collision_92.obj"/>
+    <mesh name="nist_box_collision_93" file="../objects/bigym/nist_box/collision/nist_box_collision_93.obj"/>
+    <mesh name="nist_box_collision_94" file="../objects/bigym/nist_box/collision/nist_box_collision_94.obj"/>
+    <mesh name="nist_box_collision_95" file="../objects/bigym/nist_box/collision/nist_box_collision_95.obj"/>
+    <mesh name="nist_box_collision_96" file="../objects/bigym/nist_box/collision/nist_box_collision_96.obj"/>
+    <mesh name="nist_box_collision_97" file="../objects/bigym/nist_box/collision/nist_box_collision_97.obj"/>
+    <mesh name="nist_box_collision_98" file="../objects/bigym/nist_box/collision/nist_box_collision_98.obj"/>
+    <mesh name="nist_box_collision_99" file="../objects/bigym/nist_box/collision/nist_box_collision_99.obj"/>
+    <mesh name="nist_box_collision_100" file="../objects/bigym/nist_box/collision/nist_box_collision_100.obj"/>
+    <mesh name="nist_box_collision_101" file="../objects/bigym/nist_box/collision/nist_box_collision_101.obj"/>
+    <mesh name="nist_box_collision_102" file="../objects/bigym/nist_box/collision/nist_box_collision_102.obj"/>
+    <mesh name="nist_box_collision_103" file="../objects/bigym/nist_box/collision/nist_box_collision_103.obj"/>
+    <mesh name="nist_box_collision_104" file="../objects/bigym/nist_box/collision/nist_box_collision_104.obj"/>
+    <mesh name="nist_box_collision_105" file="../objects/bigym/nist_box/collision/nist_box_collision_105.obj"/>
+    <mesh name="nist_box_collision_106" file="../objects/bigym/nist_box/collision/nist_box_collision_106.obj"/>
+    <mesh name="nist_box_collision_107" file="../objects/bigym/nist_box/collision/nist_box_collision_107.obj"/>
+    <mesh name="nist_box_collision_108" file="../objects/bigym/nist_box/collision/nist_box_collision_108.obj"/>
+    <mesh name="nist_box_collision_109" file="../objects/bigym/nist_box/collision/nist_box_collision_109.obj"/>
+    <mesh name="nist_box_collision_110" file="../objects/bigym/nist_box/collision/nist_box_collision_110.obj"/>
+    <mesh name="nist_box_collision_111" file="../objects/bigym/nist_box/collision/nist_box_collision_111.obj"/>
+    <mesh name="nist_box_collision_112" file="../objects/bigym/nist_box/collision/nist_box_collision_112.obj"/>
+    <mesh name="nist_box_collision_113" file="../objects/bigym/nist_box/collision/nist_box_collision_113.obj"/>
+    <mesh name="nist_box_collision_114" file="../objects/bigym/nist_box/collision/nist_box_collision_114.obj"/>
+    <mesh name="nist_box_collision_115" file="../objects/bigym/nist_box/collision/nist_box_collision_115.obj"/>
+    <mesh name="nist_box_collision_116" file="../objects/bigym/nist_box/collision/nist_box_collision_116.obj"/>
+    <mesh name="nist_box_collision_117" file="../objects/bigym/nist_box/collision/nist_box_collision_117.obj"/>
+    <mesh name="nist_box_collision_118" file="../objects/bigym/nist_box/collision/nist_box_collision_118.obj"/>
+    <mesh name="nist_box_collision_119" file="../objects/bigym/nist_box/collision/nist_box_collision_119.obj"/>
+    <mesh name="nist_box_collision_120" file="../objects/bigym/nist_box/collision/nist_box_collision_120.obj"/>
+    <mesh name="nist_box_collision_121" file="../objects/bigym/nist_box/collision/nist_box_collision_121.obj"/>
+    <mesh name="nist_box_collision_122" file="../objects/bigym/nist_box/collision/nist_box_collision_122.obj"/>
+    <mesh name="nist_box_collision_123" file="../objects/bigym/nist_box/collision/nist_box_collision_123.obj"/>
+    <mesh name="nist_box_collision_124" file="../objects/bigym/nist_box/collision/nist_box_collision_124.obj"/>
+    <mesh name="nist_box_collision_125" file="../objects/bigym/nist_box/collision/nist_box_collision_125.obj"/>
+    <mesh name="nist_box_collision_126" file="../objects/bigym/nist_box/collision/nist_box_collision_126.obj"/>
+    <mesh name="nist_box_collision_127" file="../objects/bigym/nist_box/collision/nist_box_collision_127.obj"/>
+    <mesh name="nist_box_collision_128" file="../objects/bigym/nist_box/collision/nist_box_collision_128.obj"/>
+    <mesh name="nist_box_collision_129" file="../objects/bigym/nist_box/collision/nist_box_collision_129.obj"/>
+    <mesh name="nist_box_collision_130" file="../objects/bigym/nist_box/collision/nist_box_collision_130.obj"/>
+    <mesh name="nist_box_collision_131" file="../objects/bigym/nist_box/collision/nist_box_collision_131.obj"/>
+    <mesh name="nist_box_collision_132" file="../objects/bigym/nist_box/collision/nist_box_collision_132.obj"/>
+    <mesh name="nist_box_collision_133" file="../objects/bigym/nist_box/collision/nist_box_collision_133.obj"/>
+    <mesh name="nist_box_collision_134" file="../objects/bigym/nist_box/collision/nist_box_collision_134.obj"/>
+    <mesh name="nist_box_collision_135" file="../objects/bigym/nist_box/collision/nist_box_collision_135.obj"/>
+    <mesh name="nist_box_collision_136" file="../objects/bigym/nist_box/collision/nist_box_collision_136.obj"/>
+    <mesh name="nist_box_collision_137" file="../objects/bigym/nist_box/collision/nist_box_collision_137.obj"/>
+    <mesh name="nist_box_collision_138" file="../objects/bigym/nist_box/collision/nist_box_collision_138.obj"/>
+    <mesh name="nist_box_collision_139" file="../objects/bigym/nist_box/collision/nist_box_collision_139.obj"/>
+    <mesh name="nist_box_collision_140" file="../objects/bigym/nist_box/collision/nist_box_collision_140.obj"/>
+    <mesh name="nist_box_collision_141" file="../objects/bigym/nist_box/collision/nist_box_collision_141.obj"/>
+    <mesh name="nist_box_collision_142" file="../objects/bigym/nist_box/collision/nist_box_collision_142.obj"/>
+    <mesh name="nist_box_collision_143" file="../objects/bigym/nist_box/collision/nist_box_collision_143.obj"/>
+    <mesh name="nist_box_collision_144" file="../objects/bigym/nist_box/collision/nist_box_collision_144.obj"/>
+    <mesh name="nist_box_collision_145" file="../objects/bigym/nist_box/collision/nist_box_collision_145.obj"/>
+    <mesh name="nist_box_collision_146" file="../objects/bigym/nist_box/collision/nist_box_collision_146.obj"/>
+    <mesh name="nist_box_collision_147" file="../objects/bigym/nist_box/collision/nist_box_collision_147.obj"/>
+    <mesh name="nist_box_collision_148" file="../objects/bigym/nist_box/collision/nist_box_collision_148.obj"/>
+    <mesh name="nist_box_collision_149" file="../objects/bigym/nist_box/collision/nist_box_collision_149.obj"/>
+    <mesh name="nist_box_collision_150" file="../objects/bigym/nist_box/collision/nist_box_collision_150.obj"/>
+    <mesh name="nist_box_collision_151" file="../objects/bigym/nist_box/collision/nist_box_collision_151.obj"/>
+    <mesh name="nist_box_collision_152" file="../objects/bigym/nist_box/collision/nist_box_collision_152.obj"/>
+    <mesh name="nist_box_collision_153" file="../objects/bigym/nist_box/collision/nist_box_collision_153.obj"/>
+    <mesh name="nist_box_collision_154" file="../objects/bigym/nist_box/collision/nist_box_collision_154.obj"/>
+    <mesh name="nist_box_collision_155" file="../objects/bigym/nist_box/collision/nist_box_collision_155.obj"/>
+    <mesh name="nist_box_collision_156" file="../objects/bigym/nist_box/collision/nist_box_collision_156.obj"/>
+    <mesh name="nist_box_collision_157" file="../objects/bigym/nist_box/collision/nist_box_collision_157.obj"/>
+    <mesh name="nist_box_collision_158" file="../objects/bigym/nist_box/collision/nist_box_collision_158.obj"/>
+    <mesh name="nist_box_collision_159" file="../objects/bigym/nist_box/collision/nist_box_collision_159.obj"/>
+    <mesh name="nist_box_collision_160" file="../objects/bigym/nist_box/collision/nist_box_collision_160.obj"/>
+    <mesh name="nist_box_collision_161" file="../objects/bigym/nist_box/collision/nist_box_collision_161.obj"/>
+    <mesh name="nist_box_collision_162" file="../objects/bigym/nist_box/collision/nist_box_collision_162.obj"/>
+    <mesh name="nist_box_collision_163" file="../objects/bigym/nist_box/collision/nist_box_collision_163.obj"/>
+    <mesh name="nist_box_collision_164" file="../objects/bigym/nist_box/collision/nist_box_collision_164.obj"/>
+    <mesh name="nist_box_collision_165" file="../objects/bigym/nist_box/collision/nist_box_collision_165.obj"/>
+    <mesh name="nist_box_collision_166" file="../objects/bigym/nist_box/collision/nist_box_collision_166.obj"/>
+    <mesh name="nist_box_collision_167" file="../objects/bigym/nist_box/collision/nist_box_collision_167.obj"/>
+    <mesh name="nist_box_collision_168" file="../objects/bigym/nist_box/collision/nist_box_collision_168.obj"/>
+    <mesh name="nist_box_collision_169" file="../objects/bigym/nist_box/collision/nist_box_collision_169.obj"/>
+    <mesh name="nist_box_collision_170" file="../objects/bigym/nist_box/collision/nist_box_collision_170.obj"/>
+    <mesh name="nist_box_collision_171" file="../objects/bigym/nist_box/collision/nist_box_collision_171.obj"/>
+    <mesh name="nist_box_collision_172" file="../objects/bigym/nist_box/collision/nist_box_collision_172.obj"/>
+    <mesh name="nist_box_collision_173" file="../objects/bigym/nist_box/collision/nist_box_collision_173.obj"/>
+    <mesh name="nist_box_collision_174" file="../objects/bigym/nist_box/collision/nist_box_collision_174.obj"/>
+    <mesh name="nist_box_collision_175" file="../objects/bigym/nist_box/collision/nist_box_collision_175.obj"/>
+    <mesh name="nist_box_collision_176" file="../objects/bigym/nist_box/collision/nist_box_collision_176.obj"/>
+    <mesh name="nist_box_collision_177" file="../objects/bigym/nist_box/collision/nist_box_collision_177.obj"/>
+    <mesh name="nist_box_collision_178" file="../objects/bigym/nist_box/collision/nist_box_collision_178.obj"/>
+    <mesh name="nist_box_collision_179" file="../objects/bigym/nist_box/collision/nist_box_collision_179.obj"/>
+    <mesh name="nist_box_collision_180" file="../objects/bigym/nist_box/collision/nist_box_collision_180.obj"/>
+    <mesh name="nist_box_collision_181" file="../objects/bigym/nist_box/collision/nist_box_collision_181.obj"/>
+    <mesh name="nist_box_collision_182" file="../objects/bigym/nist_box/collision/nist_box_collision_182.obj"/>
+    <mesh name="nist_box_collision_183" file="../objects/bigym/nist_box/collision/nist_box_collision_183.obj"/>
+    <mesh name="nist_box_collision_184" file="../objects/bigym/nist_box/collision/nist_box_collision_184.obj"/>
+    <mesh name="nist_box_collision_185" file="../objects/bigym/nist_box/collision/nist_box_collision_185.obj"/>
+    <mesh name="nist_box_collision_186" file="../objects/bigym/nist_box/collision/nist_box_collision_186.obj"/>
+    <mesh name="nist_box_collision_187" file="../objects/bigym/nist_box/collision/nist_box_collision_187.obj"/>
+    <mesh name="nist_box_collision_188" file="../objects/bigym/nist_box/collision/nist_box_collision_188.obj"/>
+    <mesh name="nist_box_collision_189" file="../objects/bigym/nist_box/collision/nist_box_collision_189.obj"/>
+    <mesh name="nist_box_collision_190" file="../objects/bigym/nist_box/collision/nist_box_collision_190.obj"/>
+    <mesh name="nist_box_collision_191" file="../objects/bigym/nist_box/collision/nist_box_collision_191.obj"/>
+    <mesh name="nist_box_collision_192" file="../objects/bigym/nist_box/collision/nist_box_collision_192.obj"/>
+    <mesh name="nist_box_collision_193" file="../objects/bigym/nist_box/collision/nist_box_collision_193.obj"/>
+    <mesh name="nist_box_collision_194" file="../objects/bigym/nist_box/collision/nist_box_collision_194.obj"/>
+    <mesh name="nist_box_collision_195" file="../objects/bigym/nist_box/collision/nist_box_collision_195.obj"/>
+    <mesh name="nist_box_collision_196" file="../objects/bigym/nist_box/collision/nist_box_collision_196.obj"/>
+    <mesh name="nist_box_collision_197" file="../objects/bigym/nist_box/collision/nist_box_collision_197.obj"/>
+    <mesh name="nist_box_collision_198" file="../objects/bigym/nist_box/collision/nist_box_collision_198.obj"/>
+    <mesh name="nist_box_collision_199" file="../objects/bigym/nist_box/collision/nist_box_collision_199.obj"/>
+    <mesh name="nist_box_collision_200" file="../objects/bigym/nist_box/collision/nist_box_collision_200.obj"/>
+    <mesh name="nist_box_collision_201" file="../objects/bigym/nist_box/collision/nist_box_collision_201.obj"/>
+    <mesh name="nist_box_collision_202" file="../objects/bigym/nist_box/collision/nist_box_collision_202.obj"/>
+    <mesh name="nist_box_collision_203" file="../objects/bigym/nist_box/collision/nist_box_collision_203.obj"/>
+    <mesh name="nist_box_collision_204" file="../objects/bigym/nist_box/collision/nist_box_collision_204.obj"/>
+    <mesh name="nist_box_collision_205" file="../objects/bigym/nist_box/collision/nist_box_collision_205.obj"/>
+    <mesh name="nist_box_collision_206" file="../objects/bigym/nist_box/collision/nist_box_collision_206.obj"/>
+    <mesh name="nist_box_collision_207" file="../objects/bigym/nist_box/collision/nist_box_collision_207.obj"/>
+    <mesh name="nist_box_collision_208" file="../objects/bigym/nist_box/collision/nist_box_collision_208.obj"/>
+    <mesh name="nist_box_collision_209" file="../objects/bigym/nist_box/collision/nist_box_collision_209.obj"/>
+    <mesh name="nist_box_collision_210" file="../objects/bigym/nist_box/collision/nist_box_collision_210.obj"/>
+    <mesh name="nist_box_collision_211" file="../objects/bigym/nist_box/collision/nist_box_collision_211.obj"/>
+    <mesh name="nist_box_collision_212" file="../objects/bigym/nist_box/collision/nist_box_collision_212.obj"/>
+    <mesh name="nist_box_collision_213" file="../objects/bigym/nist_box/collision/nist_box_collision_213.obj"/>
+    <mesh name="nist_box_collision_214" file="../objects/bigym/nist_box/collision/nist_box_collision_214.obj"/>
+    <mesh name="nist_box_collision_215" file="../objects/bigym/nist_box/collision/nist_box_collision_215.obj"/>
+    <mesh name="nist_box_collision_216" file="../objects/bigym/nist_box/collision/nist_box_collision_216.obj"/>
+    <mesh name="nist_box_collision_217" file="../objects/bigym/nist_box/collision/nist_box_collision_217.obj"/>
+    <mesh name="nist_box_collision_218" file="../objects/bigym/nist_box/collision/nist_box_collision_218.obj"/>
+    <mesh name="nist_box_collision_219" file="../objects/bigym/nist_box/collision/nist_box_collision_219.obj"/>
+    <mesh name="nist_box_collision_220" file="../objects/bigym/nist_box/collision/nist_box_collision_220.obj"/>
+    <mesh name="nist_box_collision_221" file="../objects/bigym/nist_box/collision/nist_box_collision_221.obj"/>
+    <mesh name="nist_box_collision_222" file="../objects/bigym/nist_box/collision/nist_box_collision_222.obj"/>
+    <mesh name="nist_box_collision_223" file="../objects/bigym/nist_box/collision/nist_box_collision_223.obj"/>
+    <mesh name="nist_box_collision_224" file="../objects/bigym/nist_box/collision/nist_box_collision_224.obj"/>
+    <mesh name="nist_box_collision_225" file="../objects/bigym/nist_box/collision/nist_box_collision_225.obj"/>
+    <mesh name="nist_box_collision_226" file="../objects/bigym/nist_box/collision/nist_box_collision_226.obj"/>
+    <mesh name="nist_box_collision_227" file="../objects/bigym/nist_box/collision/nist_box_collision_227.obj"/>
+    <mesh name="nist_box_collision_228" file="../objects/bigym/nist_box/collision/nist_box_collision_228.obj"/>
+    <mesh name="nist_box_collision_229" file="../objects/bigym/nist_box/collision/nist_box_collision_229.obj"/>
+    <mesh name="nist_box_collision_230" file="../objects/bigym/nist_box/collision/nist_box_collision_230.obj"/>
+    <mesh name="nist_box_collision_231" file="../objects/bigym/nist_box/collision/nist_box_collision_231.obj"/>
+    <mesh name="nist_box_collision_232" file="../objects/bigym/nist_box/collision/nist_box_collision_232.obj"/>
+    <mesh name="nist_box_collision_233" file="../objects/bigym/nist_box/collision/nist_box_collision_233.obj"/>
+    <mesh name="nist_box_collision_234" file="../objects/bigym/nist_box/collision/nist_box_collision_234.obj"/>
+    <mesh name="nist_box_collision_235" file="../objects/bigym/nist_box/collision/nist_box_collision_235.obj"/>
+    <mesh name="nist_box_collision_236" file="../objects/bigym/nist_box/collision/nist_box_collision_236.obj"/>
+  </asset>
+  <worldbody>
+      <body name="nist_box" pos="0.53 0.1 1.23" quat="0 0 0 1">
+        <freejoint/>
+        <geom mesh="nist_box" type="mesh" group="1" contype="0" conaffinity="0" material="steel_visual_nist_box"/>
+        <geom mesh="nist_box_collision_0" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_1" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_2" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_3" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_4" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_5" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_6" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_7" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_8" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_9" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_10" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_11" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_12" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_13" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_14" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_15" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_16" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_17" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_18" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_19" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_20" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_21" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_22" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_23" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_24" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_25" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_26" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_27" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_28" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_29" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_30" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_31" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_32" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_33" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_34" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_35" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_36" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_37" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_38" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_39" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_40" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_41" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_42" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_43" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_44" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_45" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_46" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_47" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_48" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_49" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_50" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_51" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_52" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_53" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_54" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_55" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_56" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_57" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_58" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_59" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_60" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_61" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_62" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_63" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_64" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_65" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_66" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_67" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_68" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_69" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_70" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_71" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_72" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_73" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_74" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_75" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_76" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_77" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_78" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_79" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_80" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_81" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_82" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_83" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_84" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_85" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_86" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_87" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_88" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_89" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_90" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_91" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_92" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_93" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_94" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_95" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_96" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_97" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_98" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_99" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_100" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_101" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_102" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_103" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_104" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_105" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_106" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_107" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_108" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_109" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_110" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_111" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_112" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_113" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_114" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_115" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_116" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_117" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_118" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_119" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_120" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_121" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_122" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_123" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_124" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_125" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_126" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_127" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_128" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_129" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_130" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_131" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_132" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_133" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_134" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_135" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_136" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_137" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_138" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_139" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_140" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_141" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_142" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_143" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_144" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_145" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_146" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_147" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_148" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_149" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_150" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_151" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_152" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_153" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_154" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_155" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_156" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_157" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_158" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_159" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_160" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_161" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_162" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_163" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_164" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_165" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_166" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_167" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_168" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_169" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_170" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_171" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_172" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_173" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_174" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_175" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_176" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_177" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_178" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_179" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_180" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_181" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_182" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_183" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_184" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_185" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_186" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_187" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_188" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_189" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_190" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_191" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_192" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_193" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_194" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_195" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_196" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_197" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_198" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_199" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_200" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_201" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_202" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_203" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_204" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_205" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_206" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_207" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_208" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_209" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_210" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_211" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_212" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_213" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_214" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_215" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_216" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_217" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_218" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_219" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_220" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_221" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_222" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_223" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_224" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_225" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_226" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_227" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_228" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_229" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_230" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_231" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_232" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_233" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_234" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_235" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <geom mesh="nist_box_collision_236" type="mesh" group="0" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" material="steel_nist_box"/>
+        <!-- <site size="0.05" pos="0.026 0.0 0.09" name="grip_pos_site_nist_box"/> -->
+      </body>
+      <!-- <site size="0.005" pos="0 0 0" name="bottom_site_nist_box"/> -->
+      <!-- <site size="0.005" pos="0 0 0.067945" name="top_site_nist_box"/> -->
+      <!-- <site size="0.005" pos="0.156 0.156 0" name="horizontal_radius_site_nist_box"/> -->
+  </worldbody>
+</mujoco>

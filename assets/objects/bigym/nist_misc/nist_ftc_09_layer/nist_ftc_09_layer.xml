@@ -1,0 +1,33 @@
+<mujoco model="nist_ftc_09_layer">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <mesh file="nist_ftc_09_layer.obj"/>
+    <mesh file="nist_ftc_09_layer_collision_0.obj"/>
+    <mesh file="nist_ftc_09_layer_collision_1.obj"/>
+    <mesh file="nist_ftc_09_layer_collision_2.obj"/>
+    <mesh file="nist_ftc_09_layer_collision_3.obj"/>
+    <mesh file="nist_ftc_09_layer_collision_4.obj"/>
+    <mesh file="nist_ftc_09_layer_collision_5.obj"/>
+    <mesh file="nist_ftc_09_layer_collision_6.obj"/>
+  </asset>
+  <worldbody>
+    <body name="nist_ftc_09_layer">
+      <freejoint/>
+      <geom mesh="nist_ftc_09_layer" class="visual"/>
+      <geom mesh="nist_ftc_09_layer_collision_0" rgba="0.6586739638407471 0.36829465568926456 0.543275070432406 1" class="collision"/>
+      <geom mesh="nist_ftc_09_layer_collision_1" rgba="0.3382091610736424 0.9936203712934605 0.21638107876383905 1" class="collision"/>
+      <geom mesh="nist_ftc_09_layer_collision_2" rgba="0.7570874511552209 0.4652216332559177 0.7205833601902147 1" class="collision"/>
+      <geom mesh="nist_ftc_09_layer_collision_3" rgba="0.864163868832855 0.31852592716348804 0.3595083168244023 1" class="collision"/>
+      <geom mesh="nist_ftc_09_layer_collision_4" rgba="0.22293932585188025 0.8521862394618981 0.1738136957409402 1" class="collision"/>
+      <geom mesh="nist_ftc_09_layer_collision_5" rgba="0.33143390096171177 0.6787104147153326 0.26251367354041655 1" class="collision"/>
+      <geom mesh="nist_ftc_09_layer_collision_6" rgba="0.5594272717915934 0.7606135881059986 0.26960343126636843 1" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

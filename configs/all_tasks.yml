@@ -1,0 +1,32 @@
+tasks:
+  # g1:
+  #   file: g1.yml
+  #   name: G1 7DoF + Tri-Finger Hand
+  #   img: g1.png
+  h1_inspire:
+    file: h1_inspire.yml
+    name: H1 7DoF + 6DoF Hand
+    img: h1_inspire.png
+  # h1_2_inspire_cmu:
+    # file: h1_2_inspire_cmu.yml
+    # name: H1 7DoF + 6DoF Hand (CMU)
+    # img: h1_inspire_cmu.png
+  # h1_inspire_no_lower:
+  #   file: h1_inspire_no_lower.yml
+  #   name: H1 7DoF + 6DoF Hand (No Lower Body)
+  #   img: h1_inspire_no_lower.png
+  # gr1_jaw:
+  #   file: gr1_jaw.yml
+  #   name: GR1 7DoF + Jaw Gripper
+  #   img: gr1_jaw.png
+  # xarm7_ability:
+  #   file: xarm7_ability.yml
+  #   name: XArm7 Ability
+  #   img: xarm7_ability.png
+  # gr1_inspire:
+    # file: gr1_inspire.yml
+    # name: GR1 7DoF + Inspire Gripper
+    # img: gr1_inspire.png
+
+  
+    

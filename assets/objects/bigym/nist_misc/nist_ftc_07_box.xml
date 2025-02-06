@@ -1,0 +1,35 @@
+<mujoco model="nist_ftc_07_asme1_ap242-e2">
+  <default>
+    <default class="nist_box_visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="nist_box_collision">
+      <geom group="3" type="mesh" density="7800" friction="0.95 0.3 0.1" solimp="0.998 0.998 0.001" solref="0.0001 1" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="nist_ftc_07_asme1_ap242-e2" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_0" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_0.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_1" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_1.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_2" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_2.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_3" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_3.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_4" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_4.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_5" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_5.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_6" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_6.obj" scale="0.0005 0.0005 0.0005"/>
+    <mesh name="nist_ftc_07_asme1_ap242-e2_collision_9" file="../objects/bigym/nist_misc/nist_ftc_07_asme1_ap242-e2/nist_ftc_07_asme1_ap242-e2_collision_9.obj" scale="0.0005 0.0005 0.0005"/>
+  </asset>
+  <worldbody>
+    <body name="nist_ftc_07_asme1_ap242-e2" pos="0.53 0.1 1.23" quat="0 0 0 1">
+      <freejoint/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2" class="nist_box_visual"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_0" rgba="0.8590111926879213 0.032370379934392735 0.9747042839359848 1" class="nist_box_collision"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_1" rgba="0.6674851432796519 0.04431308516997101 0.7908025058478539 1" class="nist_box_collision"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_2" rgba="0.035994878867127156 0.6877430919363282 0.5484979038385875 1" class="nist_box_collision"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_3" rgba="0.7942736711778999 0.6689431827183643 0.46041710242674583 1" class="nist_box_collision"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_4" rgba="0.3398429193148058 0.25995495361961773 0.09638272315104501 1" class="nist_box_collision"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_5" rgba="0.9885627884337831 0.7706916638814273 0.8525864021268802 1" class="nist_box_collision"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_6" rgba="0.6480358067548699 0.5998748116974815 0.6109511423433888 1" class="nist_box_collision"/>
+      <geom mesh="nist_ftc_07_asme1_ap242-e2_collision_9" rgba="0.11160245003910907 0.2529347948455788 0.3074668031217783 1" class="nist_box_collision"/>
+    </body>
+  </worldbody>
+</mujoco>
