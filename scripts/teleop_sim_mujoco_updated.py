@@ -236,8 +236,8 @@ class VuerTeleop:
         self.episode = 0
         self.path = path
 
-        self.start_check = GestureCheck('../data/ref_gestures/start_gesture.npy', self.freq)
-        self.record_check = GestureCheck('../data/ref_gestures/record_gesture.npy', self.freq)
+        self.start_check = GestureCheck('./start_gesture.npy', self.freq)
+        self.record_check = GestureCheck('./record_gesture.npy', self.freq)
 
         # self.last_description = ""
 
