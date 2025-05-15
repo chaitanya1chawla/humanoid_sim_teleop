@@ -3,10 +3,14 @@ tasks:
   #   file: g1.yml
   #   name: G1 7DoF + Tri-Finger Hand
   #   img: g1.png
-  h1_inspire:
-    file: h1_inspire.yml
-    name: H1 7DoF + 6DoF Hand
-    img: h1_inspire.png
+  # h1_inspire:
+    # file: h1_inspire.yml
+    # name: H1 7DoF + 6DoF Hand
+    # img: h1_inspire.png
+  g1_dex3:
+    file: g1_dex3.yml
+    name: G1 7DoF + Dex3 Hand (7DoF)
+    img: g1_dex3.png
   # h1_2_inspire_cmu:
     # file: h1_2_inspire_cmu.yml
     # name: H1 7DoF + 6DoF Hand (CMU)

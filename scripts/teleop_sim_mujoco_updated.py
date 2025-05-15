@@ -202,10 +202,12 @@ class VuerTeleop:
                 cfg = yaml.safe_load(f)['robot_cfg']
             cfgs.append(cfg)
             
-        if cfgs[task_id]['name'] == 'h1_inspire':
+        if cfgs[task_id]['name'] == 'h1_inspire' :
             self.valid_q_indices = [*range(13, 20), 20, 22, 24, 26, 28, 29, *range(32, 39), 39, 41, 43, 45, 47, 48]
         elif cfgs[task_id]['name'] == 'gr1_inspire':
             self.valid_q_indices = [*range(18, 25), 25, 27, 29, 31, 33, 34, *range(37, 44), 44, 46, 48, 50, 52, 54]
+        elif cfgs[task_id]['name'] == 'g1_dex3':
+            self.valid_q_indices = [*range(15, 43)]
         else:
             raise NotImplementedError
             
@@ -290,7 +292,6 @@ class VuerTeleop:
         # if (self.record_check.check(new_gesture) and self.if_record) or toggle_value:
         if (self.record_check.check(new_gesture) and self.if_record):
             print("Record gesture detected, recording toggled")
-            # from IPython import embed; embed()
             self.toggle_recording.set()
             if self.control_dict['is_recording']: # stop recording
                 self.episode += 1
@@ -339,6 +340,14 @@ if __name__ == '__main__':
     task_config = yaml.safe_load(open(str(Path(__file__).resolve().parent.parent / "configs" / "all_tasks.yml"), "r"))["tasks"]
     print(task_config)
     config_files = [task_config[key]["file"] for key in task_config.keys()]
+    
+    # Remove the shared memory if it exists
+    try:
+        shm = shared_memory.SharedMemory(name="sim_image")
+        shm.close()
+        shm.unlink()  
+    except FileNotFoundError:
+        pass
 
     print("[Sim] Start task: ", cur_env)
     teleoperator = VuerTeleop(FREQ,

@@ -188,6 +188,12 @@ class MujocoSim:
             robot_dof_props = self.get_dof_properties()
             self.hand_indices = cfg.get('left_hand_indices', []) + cfg.get('right_hand_indices', [])
             self.torso_indices = cfg.get('torso_indices', [])
+            self.left_arm_indices = cfg.get('left_arm_indices', [])
+            self.right_arm_indices = cfg.get('right_arm_indices', [])
+            self.right_hand_indices = cfg.get('right_hand_indices', [])
+            self.left_hand_indices = cfg.get('left_hand_indices', [])
+            self.lower_torque_limits = cfg.get('lower_torque_limits', [])
+            self.upper_torque_limits = cfg.get('upper_torque_limits', [])
             pd = cfg.get('pd', None)
             if pd is not None: # Defined PD gains for H1_inspire and GR1_inspire
                 robot_dof_props['stiffness'][cfg.get('body_indices', [])] = pd['body_kp']
@@ -235,11 +241,16 @@ class MujocoSim:
         self.viewer = viewer
         if self.cfgs[self.cur_env]['name'] == 'gr1' or self.cfgs[self.cur_env]['name'] == 'gr1_inspire':
             self.viewer_pos = np.array([0.16, 0, 1.65]) # TODO: set as head_pos in yml
+            self.viewer_target = np.array([0.45, 0, 1.45])
+        elif self.cfgs[self.cur_env]['name'] == 'g1_dex3':
+            self.viewer_pos = np.array([0.15, 0, 1.3]) # TODO: set as head_pos in yml
+            self.viewer_target = np.array([0.45, 0, 1.0])
         else:
             self.viewer_pos = np.array([0.15, 0, 1.65]) # TODO: set as head_pos in yml
+        self.viewer_target = np.array([0.45, 0, 1.45])
         # self.viewer_pos = np.array([0.1, 0, 1.65]) # TODO: set as head_pos in yml
         # self.viewer_target = np.array([0.6, 0, 0.955])
-        self.viewer_target = np.array([0.45, 0, 1.45])
+        # self.viewer_target = np.array([0.45, 0, 1.45])
 
         # Calculate distance and angles for MuJoCo camera
         direction = self.viewer_target - self.viewer_pos
@@ -325,6 +336,62 @@ class MujocoSim:
 
             self.set_torque_servo(np.arange(self.model.nu), 1)
             self.data.ctrl[self.robot_joint_ids] = -kp*(self.data.qpos[self.robot_joint_ids] - cmd) - kd*self.data.qvel[self.robot_joint_ids]
+            
+            
+        elif self.cfgs[self.cur_env]['name'] == 'g1_dex3':
+            # kp = np.ones(self.robot_joint_ids.shape[0])*100
+            # kd = np.ones(self.robot_joint_ids.shape[0])*10
+            
+            # from IPython import embed; embed()
+            
+            kp = np.array([100, 100, 100, 200, 20, 20, 
+                           100, 100, 100, 200, 20, 20, 
+                           300, 300, 300, 
+                           90, 60, 20, 60, 4, 4, 4, 
+                           1, 1, 1, 1, 1, 1, 1,
+                           90, 60, 20, 60, 4, 4, 4,
+                           1, 1, 1, 1, 1, 1, 1])
+            
+            kd = np.array([2.5, 2.5, 2.5, 5, 0.2, 0.1, 
+                           2.5, 2.5, 2.5, 5, 0.2, 0.1, 
+                           5.0, 5.0, 5.0, 
+                           2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2, 
+                           0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2,
+                           2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2,
+                           0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2])
+            
+            # self.model.jnt_stiffness[self.hand_indices] = 0
+            self.set_torque_servo(np.arange(self.model.nu), 1)
+            
+            kp[:] = 0
+            kd[:] = 0
+            
+            kp[self.torso_indices] = 600
+            kd[self.torso_indices] = 8
+            
+            kp[self.left_arm_indices] = np.array([90, 60, 20, 60, 4, 4, 4])
+            kd[self.left_arm_indices] = np.array([2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2])
+
+            kp[self.right_arm_indices] = np.array([90, 60, 20, 60, 4, 4, 4])
+            kd[self.right_arm_indices] = np.array([2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2])
+            
+            kp[self.right_hand_indices] = np.array([1.0]*7)
+            kd[self.right_hand_indices] = np.array([0.2]*7)
+
+            cmd[:] = 0
+            cmd[16:20] = 0.5
+            cmd[30:34] = -0.5
+            
+            torques = -kp*(self.data.qpos[self.robot_joint_ids] - cmd) - kd*self.data.qvel[self.robot_joint_ids]
+            # torques = np.clip(torques, -10.0, 10.0)
+            
+            if len(self.lower_torque_limits) > 0:
+                torques = np.clip(torques, self.lower_torque_limits, self.upper_torque_limits)
+            
+            torques = np.clip(torques, -10.0, 10.0)
+            
+            self.data.ctrl[self.robot_joint_ids] = torques
+        
         else:
             kp = np.ones(self.robot_joint_ids.shape[0])*200
             kd = np.ones(self.robot_joint_ids.shape[0])*10
