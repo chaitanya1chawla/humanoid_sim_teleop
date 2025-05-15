@@ -243,8 +243,8 @@ class MujocoSim:
             self.viewer_pos = np.array([0.16, 0, 1.65]) # TODO: set as head_pos in yml
             self.viewer_target = np.array([0.45, 0, 1.45])
         elif self.cfgs[self.cur_env]['name'] == 'g1_dex3':
-            self.viewer_pos = np.array([0.15, 0, 1.3]) # TODO: set as head_pos in yml
-            self.viewer_target = np.array([0.45, 0, 1.0])
+            self.viewer_pos = np.array([-2.15, 0, 1.7]) # TODO: set as head_pos in yml
+            self.viewer_target = np.array([0.15, 0, 0.0])
         else:
             self.viewer_pos = np.array([0.15, 0, 1.65]) # TODO: set as head_pos in yml
         self.viewer_target = np.array([0.45, 0, 1.45])
@@ -348,9 +348,9 @@ class MujocoSim:
                            100, 100, 100, 200, 20, 20, 
                            300, 300, 300, 
                            90, 60, 20, 60, 4, 4, 4, 
-                           1, 1, 1, 1, 1, 1, 1,
+                           0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
                            90, 60, 20, 60, 4, 4, 4,
-                           1, 1, 1, 1, 1, 1, 1])
+                           0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1])
             
             kd = np.array([2.5, 2.5, 2.5, 5, 0.2, 0.1, 
                            2.5, 2.5, 2.5, 5, 0.2, 0.1, 
@@ -363,24 +363,28 @@ class MujocoSim:
             # self.model.jnt_stiffness[self.hand_indices] = 0
             self.set_torque_servo(np.arange(self.model.nu), 1)
             
-            kp[:] = 0
-            kd[:] = 0
+            # kp[self.right_hand_indices] = 0
+            # kd[self.hand_indices] = 0
+            # 
+            # kp[self.torso_indices] = 2000
+            # kd[self.torso_indices] = 10
             
-            kp[self.torso_indices] = 600
-            kd[self.torso_indices] = 8
             
-            kp[self.left_arm_indices] = np.array([90, 60, 20, 60, 4, 4, 4])
-            kd[self.left_arm_indices] = np.array([2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2])
+            # kp[15:18] = np.array([90, 60, 20])
+            # kp[29:32] = np.array([90, 60, 20])
+            
+            # kp[self.left_arm_indices] = np.array([90, 60, 20, 60, 4, 4, 4])
+            # kd[self.left_arm_indices] = np.array([2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2])
+# 
+            # kp[self.right_arm_indices] = np.array([90, 60, 20, 60, 4, 4, 4])
+            # kd[self.right_arm_indices] = np.array([2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2])
+            
+            # kp[self.right_hand_indices] = np.array([0.1]*7)
+            # kd[self.right_hand_indices] = np.array([0.01]*7)
 
-            kp[self.right_arm_indices] = np.array([90, 60, 20, 60, 4, 4, 4])
-            kd[self.right_arm_indices] = np.array([2.0, 1.0, 0.4, 1.0, 0.2, 0.2, 0.2])
-            
-            kp[self.right_hand_indices] = np.array([1.0]*7)
-            kd[self.right_hand_indices] = np.array([0.2]*7)
-
-            cmd[:] = 0
-            cmd[16:20] = 0.5
-            cmd[30:34] = -0.5
+            # cmd[:] = 0
+            # cmd[16:20] = 0.5
+            # cmd[30:34] = -0.5
             
             torques = -kp*(self.data.qpos[self.robot_joint_ids] - cmd) - kd*self.data.qvel[self.robot_joint_ids]
             # torques = np.clip(torques, -10.0, 10.0)
@@ -388,7 +392,8 @@ class MujocoSim:
             if len(self.lower_torque_limits) > 0:
                 torques = np.clip(torques, self.lower_torque_limits, self.upper_torque_limits)
             
-            torques = np.clip(torques, -10.0, 10.0)
+            torques = np.clip(torques, -20.0, 20.0)
+            torques[self.hand_indices] = np.clip(torques[self.hand_indices], -1.0, 1.0)
             
             self.data.ctrl[self.robot_joint_ids] = torques
         
