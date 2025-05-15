@@ -243,11 +243,11 @@ class MujocoSim:
             self.viewer_pos = np.array([0.16, 0, 1.65]) # TODO: set as head_pos in yml
             self.viewer_target = np.array([0.45, 0, 1.45])
         elif self.cfgs[self.cur_env]['name'] == 'g1_dex3':
-            self.viewer_pos = np.array([-2.15, 0, 1.7]) # TODO: set as head_pos in yml
-            self.viewer_target = np.array([0.15, 0, 0.0])
+            self.viewer_pos = np.array([-0.75, 0, 1.45]) # TODO: set as head_pos in yml
+            self.viewer_target = np.array([0.45, 0, 1.2])
         else:
             self.viewer_pos = np.array([0.15, 0, 1.65]) # TODO: set as head_pos in yml
-        self.viewer_target = np.array([0.45, 0, 1.45])
+            self.viewer_target = np.array([0.45, 0, 1.45])
         # self.viewer_pos = np.array([0.1, 0, 1.65]) # TODO: set as head_pos in yml
         # self.viewer_target = np.array([0.6, 0, 0.955])
         # self.viewer_target = np.array([0.45, 0, 1.45])
